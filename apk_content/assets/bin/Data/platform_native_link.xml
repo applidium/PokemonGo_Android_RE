@@ -1,0 +1,10 @@
+<linker>
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEngine.AndroidJNI" preserve="all"/>
+		<type fullname="UnityEngine.AndroidJNIHelper" preserve="all"/>
+		<type fullname="UnityEngine._AndroidJNIHelper" preserve="all"/>
+		<type fullname="UnityEngine.AndroidJavaObject" preserve="all"/>
+		<type fullname="UnityEngine.AndroidJavaClass" preserve="all"/>
+		<type fullname="UnityEngine.AndroidJavaRunnableProxy" preserve="all"/>
+	</assembly>
+</linker>
