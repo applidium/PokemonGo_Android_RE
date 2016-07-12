@@ -1,1 +1,1 @@
-include ':app', ':lunarconsole'
+include ':app', ':lunarconsole', ':gvr-android-sdk-common'
