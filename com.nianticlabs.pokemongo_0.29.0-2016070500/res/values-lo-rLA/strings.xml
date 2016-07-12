@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Google Play Services ​ເກີດ​ຄວາມ​ຜິດ​ພາດ</string>
+    <string name="common_google_play_services_notification_needs_update_title">​ແອັບ​ພ​ລິ​ເຄ​ຊັນ​ຕ້ອງ​ການ​ໃຫ້​ອັບ​ເດດບໍ​ລິ​ການ Google Play ກ່ອນ.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s ຕ້ອງ​ການ​ໃຫ້ມີການ​ອັບ​ເດດ​ແອັບ Android Wear.</string>
+    <string name="common_google_play_services_needs_enabling_title">ແອັບພລິເຄຊັນຕ້ອງ​ການນຳໃຊ້ Google Play Services.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">ຮ້ອງຂໍໂດຍ %1$s</string>
+    <string name="common_google_play_services_install_title">ຕິດຕັ້ງບໍລິການ Google Play</string>
+    <string name="common_google_play_services_install_text_phone">%1$s ຈະບໍ່ສາມາດເຮັດວຽກໄດ້ໂດຍທີ່ບໍ່ມີການ​ບໍ​ລິ​ການ Google Play ເຊິ່ງຂາດຫາຍໄປໃນໂທລະສັບຂອງທ່ານ.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s ຈະບໍ່ສາມາດເຮັດວຽກໄດ້ໂດຍທີ່ບໍ່ມີການ​ບໍ​ລິ​ການ Google Play ເຊິ່ງຂາດຫາຍໄປໃນແທັບ​ເລັດຂອງທ່ານ.</string>
+    <string name="common_google_play_services_install_button">ຕິດຕັ້ງບໍລິການ Google Play</string>
+    <string name="common_google_play_services_enable_title">ເປີດໃຊ້ບໍລິການ Google Play</string>
+    <string name="common_google_play_services_enable_text">%1$s ຈະບໍ່ສາມາດເຮັດວຽກໄດ້ຈົນກວ່າທ່ານຈະເປີດໃຊ້ງານ​ການ​ບໍ​ລິ​ການ Google Play.</string>
+    <string name="common_google_play_services_enable_button">ເປີດໃຊ້ບໍລິການ Google Play</string>
+    <string name="common_google_play_services_update_title">ອັບເດດບໍລິການ Google Play</string>
+    <string name="common_android_wear_update_title">​ອັບ​ເດດ Android Wear</string>
+    <string name="common_google_play_services_update_text">%1$s ຈະບໍ່ສາມາດເຮັດວຽກໄດ້ຈົນກວ່າທ່ານຈະອັບເດດການ​ບໍ​ລິ​ການ Google Play</string>
+    <string name="common_android_wear_update_text">%1$s ​ຈະ​ບໍ່​ສາ​ມາດ​ໃຊ້​ໄດ້​ຈົນ​ກວ່າ​ທ່ານ​ຈະ​ອັບ​ເດດ​ແອັບ Android Wear.</string>
+    <string name="common_google_play_services_updating_title">ການ​ບໍ​ລິ​ການ Google Play ກຳ​ລັງ​ອັບ​ເດດ</string>
+    <string name="common_google_play_services_updating_text">%1$s ຈະບໍ່ສາມາດເຮັດວຽກໄດ້ໂດຍທີ່ບໍ່ມີການ​ບໍ​ລິ​ການ Google Play, ເຊິ່ງ​ກຳ​ລັງ​ອັບ​ເດດ​ຢູ່​ໃນ​ປະ​ຈຸ​ບັນ.</string>
+    <string name="common_google_play_services_network_error_title">ເຄືອຂ່າຍຜິດພາດ</string>
+    <string name="common_google_play_services_network_error_text">ຕ້ອງໃຊ້ການເຊື່ອມຕໍ່ອິນເຕີເນັດເພື່ອໃຊ້ Google Play Services.</string>
+    <string name="common_google_play_services_invalid_account_title">ບັນຊີບໍ່ຖືກຕ້ອງ</string>
+    <string name="common_google_play_services_invalid_account_text">ບັນຊີທີ່ເລືອກບໍ່ມີໃນອຸປະກອນນີ້. ກະລຸນາເລືອກບັນຊີອື່ນ.</string>
+    <string name="common_google_play_services_unknown_issue">ມີປັນຫາທີ່ບໍ່ຄາດຄິດໃນບໍລິການ Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">ບໍລິການ Google Play</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ຂຶ້ນ​ກັບ​ການ​ບໍ​ລິ​ການ Google Play, ເຊິ່ງ​ອຸ​ປະ​ກອນ​ຂອງ​ທ່ານ​ບໍ່​ຮອງ​ຮັບ. ຕິດ​ຕໍ່​ຫາ​ຜູ້​ຜະ​ລິດ​ເພື່ອ​ຂໍ​ການ​ຊ່ວຍ​ເຫຼືອ​ເພີ່ມ​ເຕີມ.</string>
+    <string name="common_google_play_services_update_button">ອັບເດດ</string>
+    <string name="common_open_on_phone">​ເປີດ​ໃນ​ໂທ​ລະ​ສັບ</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s ຕ້ອງ​ການ​ໃຫ້​ມີ​ໜຶ່ງ​ ຫຼື​ຫຼາຍ​ບໍ​ລິ​ການ​ຂອງ Google Play ທີ່​ບໍ່​ມີ​ໃຫ້​ຢູ່​ໃນ​ປະ​ຈຸ​ບັນ. ກະ​ລຸ​ນາ​ຕິດ​ຕໍ່​ຜູ້​ພັດ​ທະ​ນາ ເພື່ອ​ການ​ຊ່ວຍ​ເຫຼືອ​ເພີ່ມ​ເຕີມ.</string>
+    <string name="common_google_play_services_sign_in_failed_title">ເຂົ້າສູ່ລະບົບບໍ່​ສຳ​ເລັດ</string>
+    <string name="common_google_play_services_sign_in_failed_text">ການ​ເຂົ້າ​ສູ່ລະ​ບົບ​ບັນ​ຊີ​ລະ​ບຸ​ໄວ້​ຜິດ​ພາດ. ກະ​ລຸ​ນາ​ເລືອກ​ບັນ​ຊີ​ອື່ນ.</string>
+</resources>

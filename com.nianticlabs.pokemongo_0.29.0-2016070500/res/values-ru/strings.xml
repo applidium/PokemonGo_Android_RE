@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Ошибка сервисов Google Play</string>
+    <string name="common_google_play_services_notification_needs_update_title">Для работы приложения требуется обновить сервисы Google Play</string>
+    <string name="common_android_wear_notification_needs_update_text">Чтобы продолжить работу с приложением \"%1$s\", обновите Android Wear</string>
+    <string name="common_google_play_services_needs_enabling_title">Для работы приложения требуется включить сервисы Google Play</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Источник запроса: %1$s</string>
+    <string name="common_google_play_services_install_title">Установите Сервисы Google Play</string>
+    <string name="common_google_play_services_install_text_phone">Для работы с приложением \"%1$s\" требуются сервисы Google Play, не установленные на вашем телефоне.</string>
+    <string name="common_google_play_services_install_text_tablet">Для работы с приложением \"%1$s\" требуются сервисы Google Play, не установленные на вашем планшете.</string>
+    <string name="common_google_play_services_install_button">Установить</string>
+    <string name="common_google_play_services_enable_title">Включите Сервисы Google Play</string>
+    <string name="common_google_play_services_enable_text">Чтобы запустить приложение \"%1$s\", включите сервисы Google Play.</string>
+    <string name="common_google_play_services_enable_button">Включить</string>
+    <string name="common_google_play_services_update_title">Обновите Сервисы Google Play</string>
+    <string name="common_android_wear_update_title">Обновить Android Wear</string>
+    <string name="common_google_play_services_update_text">Чтобы запустить приложение \"%1$s\", обновите сервисы Google Play.</string>
+    <string name="common_android_wear_update_text">Чтобы запустить приложение \"%1$s\", обновите Android Wear.</string>
+    <string name="common_google_play_services_updating_title">Обновление сервисов Google Play…</string>
+    <string name="common_google_play_services_updating_text">Сервисы Google Play, необходимые для работы с приложением \"%1$s\", в настоящий момент обновляются.</string>
+    <string name="common_google_play_services_network_error_title">Ошибка сети</string>
+    <string name="common_google_play_services_network_error_text">Для работы с Google Play требуется подключение к сети.</string>
+    <string name="common_google_play_services_invalid_account_title">Недействительный аккаунт</string>
+    <string name="common_google_play_services_invalid_account_text">Этого аккаунта нет на устройстве. Выберите другой.</string>
+    <string name="common_google_play_services_unknown_issue">Неизвестная ошибка с Сервисами Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">Сервисы Google Play</string>
+    <string name="common_google_play_services_unsupported_text">Сервисы Google Play, необходимые для работы с приложением \"%1$s\", не поддерживаются на вашем устройстве. Обратитесь к его производителю.</string>
+    <string name="common_google_play_services_update_button">Обновить</string>
+    <string name="common_open_on_phone">Открыть на телефоне</string>
+    <string name="common_google_play_services_api_unavailable_text">Сервисы Google Play, необходимые для работы с приложением \"%1$s\", недоступны. Свяжитесь с его разработчиком.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Ошибка входа</string>
+    <string name="common_google_play_services_sign_in_failed_text">При входе в указанный аккаунт произошла ошибка. Выберите другой аккаунт.</string>
+</resources>

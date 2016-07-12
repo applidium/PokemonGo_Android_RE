@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">កំហុស​​សេវាកម្ម​ Google កម្សាន្ត</string>
+    <string name="common_google_play_services_notification_needs_update_title">កម្មវិធី​ទាមទារ​​ធ្វើ​បច្ចុប្បន្នភាព​សេវាកម្ម ​Google កម្សាន្ត។</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s តម្រូវឲ្យមានការធ្វើបច្ចុប្បន្នភាពលើកម្មវិធី Android Wear។</string>
+    <string name="common_google_play_services_needs_enabling_title">កម្មវិធី​ទាមទារ​ឲ្យ​បើក​សេវាកម្ម​ Google កម្សាន្ត។</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">បាន​ស្នើ​ដោយ %1$s</string>
+    <string name="common_google_play_services_install_title">ទទួល​សេវាកម្ម​កម្សាន្ត Google</string>
+    <string name="common_google_play_services_install_text_phone">%1$s នឹងមិនដំណើរការទេ បើទូរស័ព្ទរបស់អ្នកមិនមានសេវាកម្ម Google Play។</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s នឹងមិនដំណើរការទេ បើថេប្លេតរបស់អ្នកមិនមានសេវាកម្ម Google Play។</string>
+    <string name="common_google_play_services_install_button">ទទួល​សេវាកម្ម​កម្សាន្ត Google</string>
+    <string name="common_google_play_services_enable_title">បើក​សេវាកម្ម​កម្សាន្ត Google</string>
+    <string name="common_google_play_services_enable_text">%1$s នឹងមិនដំណើរការទេ លុះត្រាតែអ្នកបើកសេវាកម្ម Google Play។</string>
+    <string name="common_google_play_services_enable_button">បើក​សេវាកម្ម​កម្សាន្ត Google</string>
+    <string name="common_google_play_services_update_title">ធ្វើ​បច្ចុប្បន្នភាព​សេវាកម្ម​កម្សាន្ត Google</string>
+    <string name="common_android_wear_update_title">ធ្វើ​បច្ចុប្បន្នភាព Android Wear</string>
+    <string name="common_google_play_services_update_text">%1$s នឹងមិនដំណើរការទេ លុះត្រាតែអ្នកធ្វើបច្ចុប្បន្នភាពសេវាកម្ម Google Play។</string>
+    <string name="common_android_wear_update_text">%1$s នឹងមិនដំណើរការទេ លុះត្រាតែអ្នកធ្វើបច្ចុប្បន្នភាពកម្មវិធី Android Wear។</string>
+    <string name="common_google_play_services_updating_title">សេវាកម្ម Google Play កំពុងធ្វើបច្ចុប្បន្នភាព</string>
+    <string name="common_google_play_services_updating_text">%1$s នឹងមិនដំណើរការទេ បើមិនមានសេវាកម្ម Google Play ដោយសារតែវាកំពុងធ្វើបច្ចុប្បន្នភាព។</string>
+    <string name="common_google_play_services_network_error_title">កំហុស​​បណ្ដាញ</string>
+    <string name="common_google_play_services_network_error_text">បាន​ទាមទារ​ការ​តភ្ជាប់​ទិន្នន័យ ដើម្បី​ភ្ជាប់​សេវាកម្ម​ឃ្លាំង​កម្មវិធី។</string>
+    <string name="common_google_play_services_invalid_account_title">គណនី​មិន​ត្រឹមត្រូវ</string>
+    <string name="common_google_play_services_invalid_account_text">គណនី​ដែល​បាន​បញ្ជាក់​មិន​មាន​នៅ​លើ​ឧបករណ៍​នេះ​ទេ។ សូម​ជ្រើស​គណនី​ផ្សេង​។</string>
+    <string name="common_google_play_services_unknown_issue">មិន​ស្គាល់​បញ្ហា​ជាមួយ​សេវាកម្ម​កម្សាន្ត Google ។</string>
+    <string name="common_google_play_services_unsupported_title">សេវាកម្ម​កម្សាន្ត​ Google</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ពឹងផ្អែកលើសេវាកម្ម Google Play ប៉ុន្តែវាមិនគាំទ្រនៅលើឧបករណ៍របស់អ្នកទេ។ សូមទាក់ទងក្រុមហ៊ុនផលិតដើម្បីទទួលជំនួយ។</string>
+    <string name="common_google_play_services_update_button">ធ្វើ​បច្ចុប្បន្នភាព</string>
+    <string name="common_open_on_phone">បើក​តាម​ទូរស័ព្ទ</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s តម្រូវឲ្យមានសេវាកម្ម Google Play មួយ ឬច្រើន ប៉ុន្តែវាមិនមានផ្តល់ជូនទេបច្ចុប្បន្ននេះ។ សូមទាក់ទងអ្នកអភិវឌ្ឍន៍ដើម្បីទទួលជំនួយ។</string>
+    <string name="common_google_play_services_sign_in_failed_title">បានបរាជ័យក្នុងការចូល</string>
+    <string name="common_google_play_services_sign_in_failed_text">កំហុសក្នុងការចូលគណនីជាក់លាក់។ សូមជ្រើសរើសគណនីផ្សេងទៀត។</string>
+</resources>

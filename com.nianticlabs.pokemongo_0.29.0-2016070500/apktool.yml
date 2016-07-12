@@ -1,0 +1,15 @@
+version: 2.0.0-RC4
+apkFileName: com.nianticlabs.pokemongo_0.29.0-2016070500.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '23'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '2016070500'
+  versionName: 0.29.0
+compressionType: false

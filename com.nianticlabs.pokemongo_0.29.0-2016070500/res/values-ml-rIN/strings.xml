@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Google Play സേവനങ്ങളിലെ പിശക്</string>
+    <string name="common_google_play_services_notification_needs_update_title">ഒരു അപ്ലിക്കേഷന് Google Play സേവനങ്ങൾ അപ്‌ഡേറ്റുചെയ്യേണ്ടതുണ്ട്.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s എന്നതിന് Android Wear അപ്ലിക്കേഷനിലേക്ക് അപ്‌ഡേറ്റ് ആവശ്യമാണ്.</string>
+    <string name="common_google_play_services_needs_enabling_title">ഒരു അപ്ലിക്കേഷന് Google Play സേവനങ്ങൾ പ്രവർത്തനക്ഷമമാക്കേണ്ടതുണ്ട്.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">%1$s അഭ്യർത്ഥിച്ചത്</string>
+    <string name="common_google_play_services_install_title">Google Play സേവനങ്ങൾ നേടുക</string>
+    <string name="common_google_play_services_install_text_phone">നിങ്ങളുടെ ഫോണിൽ നിന്നും നഷ്‌ടപ്പെട്ട Google Play സേവനങ്ങളില്ലാതെ %1$s പ്രവർത്തിയ്‌ക്കില്ല.</string>
+    <string name="common_google_play_services_install_text_tablet">നിങ്ങളുടെ ടാബ്‌ലെറ്റിൽ നിന്നും നഷ്‌ടപ്പെട്ട Google Play സേവനങ്ങളില്ലാതെ %1$s പ്രവർത്തിയ്‌ക്കില്ല.</string>
+    <string name="common_google_play_services_install_button">Google Play സേവനങ്ങൾ നേടുക</string>
+    <string name="common_google_play_services_enable_title">Google Play സേവനങ്ങൾ പ്രവർത്തനക്ഷമമാക്കുക</string>
+    <string name="common_google_play_services_enable_text">നിങ്ങൾ Google Play സേവനങ്ങൾ പ്രവർത്തനക്ഷമമാക്കുന്നില്ലെങ്കിൽ %1$s പ്രവർത്തിയ്‌ക്കില്ല.</string>
+    <string name="common_google_play_services_enable_button">Google Play സേവനങ്ങൾ പ്രവർത്തനക്ഷമമാക്കുക</string>
+    <string name="common_google_play_services_update_title">Google Play സേവനങ്ങൾ അപ്‌ഡേറ്റുചെയ്യുക</string>
+    <string name="common_android_wear_update_title">Android Wear അപ്‌ഡേറ്റുചെയ്യുക</string>
+    <string name="common_google_play_services_update_text">നിങ്ങൾ Google Play സേവനങ്ങൾ അപ്‌ഡേറ്റുചെയ്‌തില്ലെങ്കിൽ %1$s പ്രവർത്തിക്കില്ല.</string>
+    <string name="common_android_wear_update_text">നിങ്ങൾ Android Wear അപ്ലിക്കേഷൻ അപ്‌ഡേറ്റുചെയ്യാത്തിടത്തോളം %1$s പ്രവർത്തിക്കില്ല.</string>
+    <string name="common_google_play_services_updating_title">Google Play സേവനങ്ങൾ അപ്‌ഡേറ്റുചെയ്യുകയാണ്</string>
+    <string name="common_google_play_services_updating_text">%1$s, നിലവിൽ അപ്‌ഡേറ്റുചെയ്യുന്ന Google Play സേവനങ്ങൾ ഇല്ലാതെ പ്രവർത്തിക്കില്ല.</string>
+    <string name="common_google_play_services_network_error_title">നെറ്റ്‌വർക്ക് പിശക്</string>
+    <string name="common_google_play_services_network_error_text">Google Play സേവനങ്ങളിലേയ്ക്ക് കണക്റ്റുചെയ്യുന്നതിന് ഒരു ഡാറ്റ കണക്ഷൻ ആവശ്യമാണ്.</string>
+    <string name="common_google_play_services_invalid_account_title">അക്കൗണ്ട് അസാധുവാണ്</string>
+    <string name="common_google_play_services_invalid_account_text">വ്യക്തമാക്കിയ അക്കൗണ്ട് ഈ ഉപകരണത്തിൽ നിലവിലില്ല. മറ്റൊരു അക്കൗണ്ട് തിരഞ്ഞെടുക്കുക.</string>
+    <string name="common_google_play_services_unknown_issue">Google Play സേവനങ്ങളിലെ അജ്ഞാത പ്രശ്‌നം.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play സേവനങ്ങൾ</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ആശ്രയിക്കുന്ന Google Play സേവനങ്ങളെ നിങ്ങളുടെ ഉപകരണം പിന്തുണയ്‌ക്കുന്നില്ല. സഹായത്തിനായി നിർമ്മാതാവിനെ ബന്ധപ്പെടുക.</string>
+    <string name="common_google_play_services_update_button">അപ്‌ഡേറ്റുചെയ്യുക</string>
+    <string name="common_open_on_phone">ഫോണിൽ തുറക്കുക</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s എന്നതിന് നിലവിൽ ലഭ്യമല്ലാത്ത ഒന്നോ അതിൽക്കൂടുതലോ Google Play സേവനങ്ങൾ ആവശ്യമാണ്. സഹായത്തിന് ഡവലപ്പറെ ബന്ധപ്പെടുക.</string>
+    <string name="common_google_play_services_sign_in_failed_title">സൈൻ ഇൻ പരാജയപ്പെട്ടു</string>
+    <string name="common_google_play_services_sign_in_failed_text">നിർദ്ദിഷ്‌ട അക്കൗണ്ടിൽ സൈൻ ഇൻ ചെയ്യുന്നതിൽ പിശക്. മറ്റൊരു അക്കൗണ്ട് തിരഞ്ഞെടുക്കുക.</string>
+</resources>

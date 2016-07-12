@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Fehler bei Zugriff auf Google Play-Dienste</string>
+    <string name="common_google_play_services_notification_needs_update_title">App erfordert ein Update der Google Play-Dienste</string>
+    <string name="common_android_wear_notification_needs_update_text">Für %1$s ist eine Aktualisierung der Android Wear App erforderlich.</string>
+    <string name="common_google_play_services_needs_enabling_title">App erfordert die Aktivierung der Google Play-Dienste</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Angefordert von %1$s</string>
+    <string name="common_google_play_services_install_title">Google Play-Dienste installieren</string>
+    <string name="common_google_play_services_install_text_phone">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die auf Ihrem Smartphone nicht installiert sind.</string>
+    <string name="common_google_play_services_install_text_tablet">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die auf Ihrem Tablet nicht installiert sind.</string>
+    <string name="common_google_play_services_install_button">Google Play-Dienste installieren</string>
+    <string name="common_google_play_services_enable_title">Google Play-Dienste aktivieren</string>
+    <string name="common_google_play_services_enable_text">%1$s funktioniert erst nach der Aktivierung der Google Play-Dienste.</string>
+    <string name="common_google_play_services_enable_button">Google Play-Dienste aktivieren</string>
+    <string name="common_google_play_services_update_title">Google Play-Dienste aktualisieren</string>
+    <string name="common_android_wear_update_title">Android Wear aktualisieren</string>
+    <string name="common_google_play_services_update_text">%1$s wird nur ausgeführt, wenn Sie die Google Play-Dienste aktualisieren.</string>
+    <string name="common_android_wear_update_text">%1$s funktioniert erst nach der Aktualisierung der Android Wear App.</string>
+    <string name="common_google_play_services_updating_title">Google Play-Dienste werden aktualisiert</string>
+    <string name="common_google_play_services_updating_text">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die gerade aktualisiert werden.</string>
+    <string name="common_google_play_services_network_error_title">Netzwerkfehler</string>
+    <string name="common_google_play_services_network_error_text">Um eine Verbindung zu den Google Play-Diensten herzustellen, ist eine Datenverbindung erforderlich.</string>
+    <string name="common_google_play_services_invalid_account_title">Ungültiges Konto</string>
+    <string name="common_google_play_services_invalid_account_text">Das angegebene Konto ist auf diesem Gerät nicht vorhanden. Bitte wählen Sie ein anderes Konto aus.</string>
+    <string name="common_google_play_services_unknown_issue">Unbekanntes Problem mit Google Play-Diensten</string>
+    <string name="common_google_play_services_unsupported_title">Google Play-Dienste</string>
+    <string name="common_google_play_services_unsupported_text">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich. Diese werden auf Ihrem Gerät jedoch nicht unterstützt. Wenden Sie sich für weitere Informationen an den Hersteller.</string>
+    <string name="common_google_play_services_update_button">Aktualisieren</string>
+    <string name="common_open_on_phone">Auf Telefon öffnen</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s erfordert einen oder mehrere Google Play-Dienste, die derzeit nicht verfügbar sind. Bitte wenden Sie sich an den Entwickler, um Unterstützung zu erhalten.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Anmeldung fehlgeschlagen</string>
+    <string name="common_google_play_services_sign_in_failed_text">Fehler beim Anmelden im angegebenen Konto. Bitte wählen Sie ein anderes Konto aus.</string>
+</resources>

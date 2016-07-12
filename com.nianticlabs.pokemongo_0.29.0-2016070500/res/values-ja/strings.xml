@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Google Play開発者サービスのエラー</string>
+    <string name="common_google_play_services_notification_needs_update_title">アプリではGoogle Play開発者サービスを更新する必要があります</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$sにはAndroid Wearアプリの更新が必要です。</string>
+    <string name="common_google_play_services_needs_enabling_title">アプリではGoogle Play開発者サービスを有効にする必要があります</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">%1$sによるリクエスト</string>
+    <string name="common_google_play_services_install_title">Play開発者サービスの入手</string>
+    <string name="common_google_play_services_install_text_phone">%1$sの実行にはGoogle Play開発者サービスが必要ですが、お使いのスマートフォンにはインストールされていません。</string>
+    <string name="common_google_play_services_install_text_tablet">%1$sの実行にはGoogle Play開発者サービスが必要ですが、お使いのタブレットにはインストールされていません。</string>
+    <string name="common_google_play_services_install_button">Play開発者サービスの入手</string>
+    <string name="common_google_play_services_enable_title">Play開発者サービスの有効化</string>
+    <string name="common_google_play_services_enable_text">%1$sの実行には、Google Play開発者サービスの有効化が必要です。</string>
+    <string name="common_google_play_services_enable_button">Play開発者サービスの有効化</string>
+    <string name="common_google_play_services_update_title">Play開発者サービスの更新</string>
+    <string name="common_android_wear_update_title">Android Wearの更新</string>
+    <string name="common_google_play_services_update_text">%1$sの実行にはGoogle Play開発者サービスの更新が必要です。</string>
+    <string name="common_android_wear_update_text">%1$sの実行にはAndroid Wearアプリの更新が必要です。</string>
+    <string name="common_google_play_services_updating_title">Google Play開発者サービスの更新中</string>
+    <string name="common_google_play_services_updating_text">%1$sの実行にはGoogle Play開発者サービスが必要ですが、このサービスは現在更新中です。</string>
+    <string name="common_google_play_services_network_error_title">ネットワークエラー</string>
+    <string name="common_google_play_services_network_error_text">Google Play開発者サービスに接続するには、データ接続が必要です。</string>
+    <string name="common_google_play_services_invalid_account_title">無効なアカウント</string>
+    <string name="common_google_play_services_invalid_account_text">指定したアカウントはこの端末上に存在しません。別のアカウントを選択してください。</string>
+    <string name="common_google_play_services_unknown_issue">Google Play開発者サービスで原因不明の問題が発生しました。</string>
+    <string name="common_google_play_services_unsupported_title">Google Play開発者サービス</string>
+    <string name="common_google_play_services_unsupported_text">%1$sに必要なGoogle Play開発者サービスは、お使いの端末ではサポートされていません。詳しくは端末メーカーにお問い合わせください。</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_open_on_phone">端末で開く</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$sには現在利用されていないGoogle Play開発者サービスが必要です。詳しくはデベロッパーにお問い合わせください。</string>
+    <string name="common_google_play_services_sign_in_failed_title">ログインできませんでした</string>
+    <string name="common_google_play_services_sign_in_failed_text">指定されたアカウントへのログイン中にエラーが発生しました。別のアカウントを選択してください。</string>
+</resources>

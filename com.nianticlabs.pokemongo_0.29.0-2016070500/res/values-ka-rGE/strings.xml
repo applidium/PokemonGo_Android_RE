@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Google Play Services-ის შეცდომა</string>
+    <string name="common_google_play_services_notification_needs_update_title">აპლიკაცია საჭიროებს Google Play Services-ის განახლებას.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s საჭიროებს Android Wear აპის განახლებას.</string>
+    <string name="common_google_play_services_needs_enabling_title">აპლიკაცია საჭიროებს გააქტიურებულ Google Play Services.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">მომთხოვნი: %1$s</string>
+    <string name="common_google_play_services_install_title">Google Play სერვისების მიღება</string>
+    <string name="common_google_play_services_install_text_phone">%1$s ვერ გაეშვება Google Play სერვისების გარეშე, რაც თქვენს ტელეფონზე ვერ იძებნება.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s ვერ გაეშვება Google Play სერვისების გარეშე, რაც თქვენს ტაბლეტზე ვერ იძებნება.</string>
+    <string name="common_google_play_services_install_button">Google Play სერვისების მიღება</string>
+    <string name="common_google_play_services_enable_title">Google Play სერვისების გააქტიურება</string>
+    <string name="common_google_play_services_enable_text">%1$s არ იმუშავებს, თუ არ გაააქტიურებთ Google Play სერვისებს.</string>
+    <string name="common_google_play_services_enable_button">Google Play სერვისების გააქტიურება</string>
+    <string name="common_google_play_services_update_title">Google Play სერვისების განახლება</string>
+    <string name="common_android_wear_update_title">Android Wear-ის განახლება</string>
+    <string name="common_google_play_services_update_text">%1$s ვერ გაეშვება, თუ Google Play სერვისებს არ განაახლებთ.</string>
+    <string name="common_android_wear_update_text">%1$s ვერ გაეშვება, ვიდრე Android Wear აპს არ განაახლებთ.</string>
+    <string name="common_google_play_services_updating_title">ხდება Google Play სერვისების განახლება.</string>
+    <string name="common_google_play_services_updating_text">%1$s ვერ გაეშვება Google Play სერვისების გარეშე, რომელთა განახლებაც ახლა მიმდინარეობს.</string>
+    <string name="common_google_play_services_network_error_title">ქსელის შეცდომა</string>
+    <string name="common_google_play_services_network_error_text">Google Play Services-თან დასაკავშირებლად მონაცემთა გადაცემა აუცილებელია.</string>
+    <string name="common_google_play_services_invalid_account_title">ანგარიში არასწორია</string>
+    <string name="common_google_play_services_invalid_account_text">მითითებული ანგარიში ამ მოწყობილობაზე არ არსებობს. გთხოვთ, აირჩიოთ სხვა ანგარიში.</string>
+    <string name="common_google_play_services_unknown_issue">Google Play სერვისებთან დაკავშირებით უცნობი შეფერხება წარმოიშვა.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play სერვისები</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ეყრდნობა Google Play სერვისებს, რომლებიც თქვენს მოწყობილობაზე მხარდაჭერილი არ არის. გთხოვთ, დაუკავშირდეთ მწარმოებელს დახმარებისათვის.</string>
+    <string name="common_google_play_services_update_button">განახლება</string>
+    <string name="common_open_on_phone">ტელეფონზე გახსნა</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s ითხოვს ერთ ან მეტ Google Play სერვისს, რომელიც ამჟამად არ არის ხელმისაწვდომი. გთხოვთ, დახმარებისთვის დაუკავშირდეთ დეველოპერს.</string>
+    <string name="common_google_play_services_sign_in_failed_title">შესვლის შეცდომა</string>
+    <string name="common_google_play_services_sign_in_failed_text">მითითებულ ანგარიშზე შესვლის შეცდომა. გთხოვთ აირჩიოთ სხვა ანგარიში.</string>
+</resources>

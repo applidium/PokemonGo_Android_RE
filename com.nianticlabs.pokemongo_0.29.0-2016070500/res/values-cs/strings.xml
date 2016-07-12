@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Chyba služeb Google Play</string>
+    <string name="common_google_play_services_notification_needs_update_title">Aplikace vyžaduje aktualizaci služeb Google Play.</string>
+    <string name="common_android_wear_notification_needs_update_text">Aplikace %1$s vyžaduje aktualizaci aplikace Android Wear.</string>
+    <string name="common_google_play_services_needs_enabling_title">Aplikace vyžaduje aktivaci služeb Google Play.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Požadováno aplikací %1$s</string>
+    <string name="common_google_play_services_install_title">Instalovat služby Google Play</string>
+    <string name="common_google_play_services_install_text_phone">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které v telefonu nemáte.</string>
+    <string name="common_google_play_services_install_text_tablet">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které v tabletu nemáte.</string>
+    <string name="common_google_play_services_install_button">Instalovat služby Google Play</string>
+    <string name="common_google_play_services_enable_title">Aktivovat služby Google Play</string>
+    <string name="common_google_play_services_enable_text">Ke spuštění aplikace %1$s je třeba aktivovat služby Google Play.</string>
+    <string name="common_google_play_services_enable_button">Aktivovat služby Google Play</string>
+    <string name="common_google_play_services_update_title">Aktualizace služeb Google Play</string>
+    <string name="common_android_wear_update_title">Aktualizujte aplikaci Android Wear</string>
+    <string name="common_google_play_services_update_text">Ke spuštění aplikace %1$s je třeba aktualizovat služby Google Play.</string>
+    <string name="common_android_wear_update_text">Aplikace %1$s bude fungovat po aktualizaci aplikace Android Wear.</string>
+    <string name="common_google_play_services_updating_title">Probíhá aktualizace služeb Google Play</string>
+    <string name="common_google_play_services_updating_text">Ke spuštění aplikace %1$s jsou potřeba služby Google Play, které jsou právě aktualizovány.</string>
+    <string name="common_google_play_services_network_error_title">Chyba sítě</string>
+    <string name="common_google_play_services_network_error_text">Připojení ke službám Google Play vyžaduje datové připojení.</string>
+    <string name="common_google_play_services_invalid_account_title">Neplatný účet</string>
+    <string name="common_google_play_services_invalid_account_text">Zadaný účet v tomto zařízení neexistuje. Zvolte prosím jiný účet.</string>
+    <string name="common_google_play_services_unknown_issue">Nastal neznámý problém se službami Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">Služby Google Play</string>
+    <string name="common_google_play_services_unsupported_text">Aplikace %1$s vyžaduje služby Google Play, které ve vašem zařízení nejsou podporovány. Kontaktujte výrobce zařízení.</string>
+    <string name="common_google_play_services_update_button">Aktualizovat</string>
+    <string name="common_open_on_phone">Otevřít v telefonu</string>
+    <string name="common_google_play_services_api_unavailable_text">Aplikace %1$s vyžaduje jednu nebo více služeb Google Play, které aktuálně nejsou k dispozici. S žádostí o pomoc se obraťte na vývojáře.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Přihlášení se nezdařilo</string>
+    <string name="common_google_play_services_sign_in_failed_text">Při přihlašování k uvedenému účtu došlo k chybě. Zvolte prosím jiný účet.</string>
+</resources>

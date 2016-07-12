@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Pogreška Usluga za Google Play</string>
+    <string name="common_google_play_services_notification_needs_update_title">Aplikacija zahtijeva ažuriranje Usluga za Google Play.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s zahtijeva ažuriranje aplikacije Android Wear.</string>
+    <string name="common_google_play_services_needs_enabling_title">Aplikacija zahtijeva da Usluge za Google Play budu omogućene.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Zahtijeva aplikacija %1$s</string>
+    <string name="common_google_play_services_install_title">Preuzmi usluge za Google Play</string>
+    <string name="common_google_play_services_install_text_phone">%1$s neće funkcionirati bez Google Play usluga koje nisu instalirane na vašem telefonu.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s neće funkcionirati bez Google Play usluga koje nisu instalirane na vašem tabletu.</string>
+    <string name="common_google_play_services_install_button">Preuzmi usluge za Google Play</string>
+    <string name="common_google_play_services_enable_title">Omogući usluge za Google Play</string>
+    <string name="common_google_play_services_enable_text">%1$s neće funkcionirati ako ne omogućite Google Play usluge.</string>
+    <string name="common_google_play_services_enable_button">Omogući usluge za Google Play</string>
+    <string name="common_google_play_services_update_title">Ažuriraj usluge za Google Play</string>
+    <string name="common_android_wear_update_title">Ažurirajte Android Wear</string>
+    <string name="common_google_play_services_update_text">%1$s neće funkcionirati ako ne ažurirate Google Play usluge.</string>
+    <string name="common_android_wear_update_text">%1$s neće funkcionirati ako ne ažurirate aplikaciju Android Wear.</string>
+    <string name="common_google_play_services_updating_title">Ažuriranje Google Play usluga u tijeku</string>
+    <string name="common_google_play_services_updating_text">%1$s neće funkcionirati bez Google Play usluga koje se trenutačno ažuriraju.</string>
+    <string name="common_google_play_services_network_error_title">Mrežna pogreška</string>
+    <string name="common_google_play_services_network_error_text">Potrebna je podatkovna veza za povezivanje s uslugama Google Play.</string>
+    <string name="common_google_play_services_invalid_account_title">Nevažeći račun</string>
+    <string name="common_google_play_services_invalid_account_text">Navedeni račun ne postoji na ovom uređaju. Odaberite neki drugi račun.</string>
+    <string name="common_google_play_services_unknown_issue">Nepoznata poteškoća s uslugama za Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">Usluge za Google Play</string>
+    <string name="common_google_play_services_unsupported_text">%1$s radi uz pomoć Google Play usluge koje vaš uređaj ne podržava. Za pomoć se obratite proizvođaču.</string>
+    <string name="common_google_play_services_update_button">Ažuriranje</string>
+    <string name="common_open_on_phone">Otvaranje na telefonu</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s zahtijeva jednu ili više Google Play usluga koje trenutačno nisu dostupne. Za pomoć se obratite razvojnom programeru.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Prijava nije uspjela</string>
+    <string name="common_google_play_services_sign_in_failed_text">Pogreška prilikom prijave na navedeni račun. Odaberite neki drugi račun.</string>
+</resources>

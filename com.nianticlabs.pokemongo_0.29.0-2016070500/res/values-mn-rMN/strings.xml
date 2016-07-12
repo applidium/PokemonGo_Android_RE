@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Google Наадаан үйлчилгээний алдаа</string>
+    <string name="common_google_play_services_notification_needs_update_title">Аппликешн Google Наадаан Үйлчилгээг шинэчлэхийг шаардана.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s нь Android Wear апп-ыг шинэчлэхийг шаардаж байна.</string>
+    <string name="common_google_play_services_needs_enabling_title">Аппликешн Google Наадаан Үйлчилгээг идэвхжүүлсэн байхыг шаардана.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">%1$s хүсэлт гаргасан</string>
+    <string name="common_google_play_services_install_title">Google Play үйлчилгээ авах</string>
+    <string name="common_google_play_services_install_text_phone">%1$s нь Google Play үйлчилгээ байгаа тохиолдолд ажилладаг бөгөөд эдгээр нь таны утсанд байхгүй байна.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s нь Google Play үйлчилгээ байгаа тохиолдолд ажилладаг бөгөөд эдгээр нь таны таблетанд байхгүй байна.</string>
+    <string name="common_google_play_services_install_button">Google Play үйлчилгээ авах</string>
+    <string name="common_google_play_services_enable_title">Google Play үйлчилгээг идэвхжүүлэх</string>
+    <string name="common_google_play_services_enable_text">%1$s нь таныг Google Play үйлчилгээнүүдийг идэвхжүүлэхээс нааш ажиллахгүй.</string>
+    <string name="common_google_play_services_enable_button">Google Play үйлчилгээг идэвхжүүлэх</string>
+    <string name="common_google_play_services_update_title">Google Play үйлчилгээг шинэчлэх</string>
+    <string name="common_android_wear_update_title">Андройд Зүүсгэлийг шинэчлэх</string>
+    <string name="common_google_play_services_update_text">%1$s нь таныг Google Play үйлчилгээнүүдийг шинэчлэхээс нааш ажиллахгүй.</string>
+    <string name="common_android_wear_update_text">%1$s нь таныг Android Wear апп-ыг шинэчлэхээс нааш ажиллахгүй.</string>
+    <string name="common_google_play_services_updating_title">Google Play үйлчилгээнүүдийг шинэчилж байна</string>
+    <string name="common_google_play_services_updating_text">%1$s нь одоогоор шинэчлэгдэж буй Google Play үйлчилгээ байхгүй тохиолдолд ажиллахгүй.</string>
+    <string name="common_google_play_services_network_error_title">Сүлжээний алдаа</string>
+    <string name="common_google_play_services_network_error_text">Google Play үйлчилгээнд холбогдохын тулд дата холболт шаардлагатай.</string>
+    <string name="common_google_play_services_invalid_account_title">Буруу акаунт</string>
+    <string name="common_google_play_services_invalid_account_text">Заасан акаунт энэ төхөөрөмж дээр байхгүй байна. Өөр акаунт сонгоно уу.</string>
+    <string name="common_google_play_services_unknown_issue">Google Play үйлчилгээтэй холбоотой тодорхойгүй алдаа.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play үйлчилгээ</string>
+    <string name="common_google_play_services_unsupported_text">%1$s нь Google Play үйлчилгээний тусламжтай ажилладаг боловч таны төхөөрөмж үүнийг дэмждэггүй. Тусламж хэрэгтэй бол үйлдвэрлэгчтэй холбогдоно уу.</string>
+    <string name="common_google_play_services_update_button">Шинэчлэх</string>
+    <string name="common_open_on_phone">Утсан дээр нээх</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s нь одоогоор ажиллах боломжгүй нэг болон түүнээс дээш Google Play-ын үйлчилгээнүүдийг шаардаж байна. Тусламж хэрэгтэй бол хөгжүүлэгчтэй холбоо барина уу.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Нэвтрэх үйлдэл амжилтгүй болсон байна.</string>
+    <string name="common_google_play_services_sign_in_failed_text">Хаягт нэвтрэхэд алдаа гарлаа. Өөр хаяг сонгоно уу.</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Fejl i Google Play-tjenester</string>
+    <string name="common_google_play_services_notification_needs_update_title">En app kræver opdatering af Google Play-tjenester.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s kræver en opdatering af appen Android Wear.</string>
+    <string name="common_google_play_services_needs_enabling_title">En app kræver aktivering af Google Play-tjenester.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Anmodning fra %1$s</string>
+    <string name="common_google_play_services_install_title">Hent Google Play-tjenester</string>
+    <string name="common_google_play_services_install_text_phone">%1$s kan ikke køre uden Google Play-tjenester, som ikke findes på din telefon.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s kan ikke køre uden Google Play-tjenester, som ikke findes på din tablet.</string>
+    <string name="common_google_play_services_install_button">Hent Google Play-tjenester</string>
+    <string name="common_google_play_services_enable_title">Aktivér Google Play-tjenester</string>
+    <string name="common_google_play_services_enable_text">%1$s kan ikke fungere, medmindre du aktiverer Google Play-tjenester.</string>
+    <string name="common_google_play_services_enable_button">Aktivér Google Play-tjenester</string>
+    <string name="common_google_play_services_update_title">Opdater Google Play-tjenester</string>
+    <string name="common_android_wear_update_title">Opdater Android Wear</string>
+    <string name="common_google_play_services_update_text">%1$s kan ikke køre, medmindre du opdaterer Google Play-tjenester.</string>
+    <string name="common_android_wear_update_text">%1$s kan ikke køre, medmindre du opdaterer appen Android Wear.</string>
+    <string name="common_google_play_services_updating_title">Google Play-tjenester opdateres</string>
+    <string name="common_google_play_services_updating_text">%1$s kan ikke køre uden Google Play-tjenester, som i øjeblikket opdateres:</string>
+    <string name="common_google_play_services_network_error_title">Netværksfejl</string>
+    <string name="common_google_play_services_network_error_text">Der kræves en dataforbindelse for at oprette forbindelse til Google Play-tjenester.</string>
+    <string name="common_google_play_services_invalid_account_title">Ugyldig konto</string>
+    <string name="common_google_play_services_invalid_account_text">Den angivne konto findes ikke på denne enhed. Vælg en anden konto.</string>
+    <string name="common_google_play_services_unknown_issue">Ukendt problem med Google Play-tjenester.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play-tjenester</string>
+    <string name="common_google_play_services_unsupported_text">%1$s er afhængig af Google Play-tjenester, som ikke understøttes af din enhed. Kontakt producenten for at få hjælp.</string>
+    <string name="common_google_play_services_update_button">Opdater</string>
+    <string name="common_open_on_phone">Åbn på telefonen</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s kræver en eller flere Google Play-tjenester, der ikke tilgængelige i øjeblikket. Kontakt udvikleren for at få hjælp.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Login mislykkedes</string>
+    <string name="common_google_play_services_sign_in_failed_text">Der opstod en fejl under login på angivne konto. Vælg en anden konto.</string>
+</resources>

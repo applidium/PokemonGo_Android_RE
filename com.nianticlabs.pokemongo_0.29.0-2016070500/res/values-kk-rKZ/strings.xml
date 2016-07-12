@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Google Play қызметтерінің қатесі</string>
+    <string name="common_google_play_services_notification_needs_update_title">Қолданба Google Play қызметтерін жаңартуды талап етеді.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s пайдалану үшін Android Wear қолданбасын жаңарту қажет.</string>
+    <string name="common_google_play_services_needs_enabling_title">Қолданба Google Play қызметтерін қосуды қажет етеді.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">%1$s арқылы сұралған</string>
+    <string name="common_google_play_services_install_title">Google Play қызметтерін алу</string>
+    <string name="common_google_play_services_install_text_phone">Google Play қызметтері телефонда болмағандықтан, %1$s іске қосылмайды.</string>
+    <string name="common_google_play_services_install_text_tablet">Google Play қызметтері планшетте болмағандықтан, %1$s іске қосылмайды.</string>
+    <string name="common_google_play_services_install_button">Google Play қызметтерін алу</string>
+    <string name="common_google_play_services_enable_title">Google Play қызметтерін қосу</string>
+    <string name="common_google_play_services_enable_text">Google Play қызметтерін қосқанша %1$s жұмыс істемейді.</string>
+    <string name="common_google_play_services_enable_button">Google Play қызметтерін қосу</string>
+    <string name="common_google_play_services_update_title">Google Play қызметтерін жаңарту</string>
+    <string name="common_android_wear_update_title">Android Wear қолданбасын жаңарту</string>
+    <string name="common_google_play_services_update_text">Google Play қызметтерін жаңартпасаңыз, %1$s іске қосылмайды.</string>
+    <string name="common_android_wear_update_text">Android Wear қолданбасын жаңартпасаңыз, %1$s іске қосылмайды.</string>
+    <string name="common_google_play_services_updating_title">Google Play қызметтері жаңартылуда</string>
+    <string name="common_google_play_services_updating_text">Қазіргі уақытта жаңартылып жатқан Google Play қызметтерінсіз %1$s іске қосылмайды.</string>
+    <string name="common_google_play_services_network_error_title">Желі қатесі</string>
+    <string name="common_google_play_services_network_error_text">Google Play қызметтеріне қосылу үшін деректер байланысы талап етіледі.</string>
+    <string name="common_google_play_services_invalid_account_title">Жарамсыз тіркелгі</string>
+    <string name="common_google_play_services_invalid_account_text">Бұл құрылғыда көрсетілген тіркелгі жоқ. Басқа тіркелгіні таңдаңыз.</string>
+    <string name="common_google_play_services_unknown_issue">Google Play қызметтерімен белгісіз мәселе.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play қызметтері</string>
+    <string name="common_google_play_services_unsupported_text">%1$s құрылғыңыз қолдау көрсетпейтін Google Play қызметтеріне негізделген. Көмек алу үшін өндірушіге хабарласыңыз.</string>
+    <string name="common_google_play_services_update_button">Жаңарту</string>
+    <string name="common_open_on_phone">Телефонда ашу</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s үшін қазір істемей тұрған бір немесе бірнеше Google Play қызметі қажет. Көмек алу үшін әзірлеушіге хабарласыңыз.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Кіру сәтсіз аяқталды</string>
+    <string name="common_google_play_services_sign_in_failed_text">Көрсетілген есептік жазбаға кіру кезіндегі қате. Басқа есептік жазбаны таңдаңыз.</string>
+</resources>

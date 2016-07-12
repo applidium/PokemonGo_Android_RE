@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Google Play 服務發生錯誤</string>
+    <string name="common_google_play_services_notification_needs_update_title">應用程式要求更新 Google Play 服務。</string>
+    <string name="common_android_wear_notification_needs_update_text">「%1$s」要求更新 Android Wear 應用程式。</string>
+    <string name="common_google_play_services_needs_enabling_title">應用程式要求啟用 Google Play 服務。</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">「%1$s」提出要求</string>
+    <string name="common_google_play_services_install_title">取得 Google Play 服務</string>
+    <string name="common_google_play_services_install_text_phone">您的手機並未安裝 Google Play 服務，因此無法執行「%1$s」。</string>
+    <string name="common_google_play_services_install_text_tablet">您的平板電腦並未安裝 Google Play 服務，因此無法執行「%1$s」。</string>
+    <string name="common_google_play_services_install_button">取得 Google Play 服務</string>
+    <string name="common_google_play_services_enable_title">啟用 Google Play 服務</string>
+    <string name="common_google_play_services_enable_text">您必須啟用 Google Play 服務，「%1$s」才能運作。</string>
+    <string name="common_google_play_services_enable_button">啟用 Google Play 服務</string>
+    <string name="common_google_play_services_update_title">更新 Google Play 服務</string>
+    <string name="common_android_wear_update_title">更新 Android Wear</string>
+    <string name="common_google_play_services_update_text">您必須更新 Google Play 服務，才能執行「%1$s」。</string>
+    <string name="common_android_wear_update_text">您必須更新 Android Wear 應用程式，才能執行「%1$s」。</string>
+    <string name="common_google_play_services_updating_title">正在更新 Google Play 服務</string>
+    <string name="common_google_play_services_updating_text">「%1$s」需要用到的 Google Play 服務目前在更新中，因此無法執行該應用程式。</string>
+    <string name="common_google_play_services_network_error_title">網路錯誤</string>
+    <string name="common_google_play_services_network_error_text">需要數據連線才能連上 Google Play 服務。</string>
+    <string name="common_google_play_services_invalid_account_title">無效的帳戶</string>
+    <string name="common_google_play_services_invalid_account_text">這個裝置上沒有您所指定的帳戶，請選擇其他帳戶。</string>
+    <string name="common_google_play_services_unknown_issue">Google Play 服務發生不明問題。</string>
+    <string name="common_google_play_services_unsupported_title">Google Play 服務</string>
+    <string name="common_google_play_services_unsupported_text">「%1$s」需要用到 Google Play 服務才能運作，但您的裝置並不支援該服務。請與您的裝置製造商聯絡，向對方尋求協助。</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_open_on_phone">在手機上開啟</string>
+    <string name="common_google_play_services_api_unavailable_text">「%1$s」需要用到一或多項 Google Play 服務才能運作，但這些服務目前未提供存取。請與開發人員聯絡，向對方尋求協助。</string>
+    <string name="common_google_play_services_sign_in_failed_title">登入失敗</string>
+    <string name="common_google_play_services_sign_in_failed_text">登入指定的帳戶時發生錯誤，請選擇其他帳戶。</string>
+</resources>

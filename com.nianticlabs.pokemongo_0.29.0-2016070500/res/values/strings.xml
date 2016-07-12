@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s requires an update to the Android Wear app.</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by %1$s</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone">"%1$s won't run without Google Play services, which are missing from your phone."</string>
+    <string name="common_google_play_services_install_text_tablet">"%1$s won't run without Google Play services, which are missing from your tablet."</string>
+    <string name="common_google_play_services_install_button">Get Google Play services</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_android_wear_update_title">Update Android Wear</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_android_wear_update_text">"%1$s won't run unless you update the Android Wear app."</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_unsupported_text">%1$s relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="store_picture_title">Save image</string>
+    <string name="store_picture_message">Allow Ad to store image in Picture gallery?</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="app_name">Pokémon GO</string>
+    <string name="com.crashlytics.android.build_id">0000000</string>
+    <string name="Loading">Loading, please wait.</string>
+    <string name="np_toolbar_back">Back</string>
+    <string name="np_toolbar_forward">Forward</string>
+    <string name="np_toolbar_reload">Reload</string>
+    <string name="np_toolbar_done">Done</string>
+    <string name="gameservices_sign_in_failed">Sign in failed</string>
+    <string name="gameservices_app_misconfigured">App misconfigured</string>
+    <string name="gameservices_license_failed">License failed</string>
+    <string name="upsight_sdk_build">+release.677f23a</string>
+    <string name="upsight_sdk_version">4.0.6</string>
+    <string name="action_settings">Settings</string>
+    <string name="lunar_console_log_details_dialog_button_copy_to_clipboard">Copy to Clipboard</string>
+    <string name="lunar_console_log_details_dialog_no_stacktrace_warning">"No stack trace found.
+
+Make sure \"Development Build\" checkbox is checked under \"Build Settings\" (File ▶ Build Settings...)"</string>
+    <string name="lunar_console_overflow_warning_text">Too much output: %1$d item(s) trimmed</string>
+    <string name="lunar_console_title_fake_status_bar">Lunar Console v%1$s</string>
+</resources>

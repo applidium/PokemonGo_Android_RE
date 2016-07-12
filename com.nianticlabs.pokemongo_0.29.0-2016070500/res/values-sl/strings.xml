@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Napaka storitev Google Play</string>
+    <string name="common_google_play_services_notification_needs_update_title">Za delovanje aplikacije morate posodobiti storitve Google Play.</string>
+    <string name="common_android_wear_notification_needs_update_text">Aplikacija %1$s zahteva posodobitev aplikacije Android Wear.</string>
+    <string name="common_google_play_services_needs_enabling_title">Za delovanje aplikacije morate omogočiti storitve Google Play.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Zahteva aplikacije %1$s</string>
+    <string name="common_google_play_services_install_title">Namestite storitve Google Play</string>
+    <string name="common_google_play_services_install_text_phone">Aplikacija %1$s ne deluje brez storitev Google Play, vendar teh ni v telefonu.</string>
+    <string name="common_google_play_services_install_text_tablet">Aplikacija %1$s ne deluje brez storitev Google Play, vendar teh ni v tabličnem računalniku.</string>
+    <string name="common_google_play_services_install_button">Namestite storitve Google Play</string>
+    <string name="common_google_play_services_enable_title">Omogočite storitve Google Play</string>
+    <string name="common_google_play_services_enable_text">Aplikacija %1$s ne bo delovala, če ne omogočite storitev Google Play.</string>
+    <string name="common_google_play_services_enable_button">Omogočite storitve Google Play</string>
+    <string name="common_google_play_services_update_title">Posodobite storitve Google Play</string>
+    <string name="common_android_wear_update_title">Posodobitev aplikacije Android Wear</string>
+    <string name="common_google_play_services_update_text">Aplikacija %1$s ne bo delovala, če ne posodobite storitev Google Play.</string>
+    <string name="common_android_wear_update_text">Aplikacija %1$s ne bo delovala, če ne posodobite aplikacije Android Wear.</string>
+    <string name="common_google_play_services_updating_title">Storitve Google Play se posodabljajo</string>
+    <string name="common_google_play_services_updating_text">Aplikacija %1$s ne deluje brez storitev Google Play, ki se trenutno posodabljajo.</string>
+    <string name="common_google_play_services_network_error_title">Omrežna napaka</string>
+    <string name="common_google_play_services_network_error_text">Za povezavo s storitvami Google Play potrebujete internetno povezavo.</string>
+    <string name="common_google_play_services_invalid_account_title">Neveljaven račun</string>
+    <string name="common_google_play_services_invalid_account_text">V tej napravi ne obstaja navedeni račun. Izberite drugega.</string>
+    <string name="common_google_play_services_unknown_issue">Neznana težava s storitvami Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">Storitve Google Play</string>
+    <string name="common_google_play_services_unsupported_text">Aplikacija %1$s potrebuje storitve Google Play, ki jih vaša naprava ne podpira. Za pomoč se obrnite na proizvajalca.</string>
+    <string name="common_google_play_services_update_button">Posodobi</string>
+    <string name="common_open_on_phone">Odpiranje v telefonu</string>
+    <string name="common_google_play_services_api_unavailable_text">Aplikacija %1$s potrebuje eno ali več storitev za Google Play, ki trenutno niso na voljo. Za pomoč se obrnite na razvijalca.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Prijava ni uspela</string>
+    <string name="common_google_play_services_sign_in_failed_text">Napaka pri prijavi v izbran račun. Izberite drug račun.</string>
+</resources>

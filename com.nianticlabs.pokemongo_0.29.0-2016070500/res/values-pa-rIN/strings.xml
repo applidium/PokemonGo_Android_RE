@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Google Play ਸੇਵਾਵਾਂ ਅਸ਼ੁੱਧੀ</string>
+    <string name="common_google_play_services_notification_needs_update_title">ਇੱਕ ਐਪਲੀਕੇਸ਼ਨ ਲਈ Google Play ਸੇਵਾਵਾਂ ਦੇ ਇੱਕ ਅਪਡੇਟ ਦੀ ਲੋੜ ਹੈ।</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s ਨੂੰ Android ਵੀਅਰ ਐਪ ਦੇ ਇੱਕ ਅਪਡੇਟ ਦੀ ਲੋੜ ਹੈ।</string>
+    <string name="common_google_play_services_needs_enabling_title">ਇੱਕ ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਸਮਰੱਥ ਬਣਾਉਣ ਲਈ Google Play ਸੇਵਾਵਾਂ ਦੀ ਲੋੜ ਹੈ।</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">%1$s ਵੱਲੋਂ ਬੇਨਤੀ ਕੀਤੀ</string>
+    <string name="common_google_play_services_install_title">Google Play ਸੇਵਾਵਾਂ ਪ੍ਰਾਪਤ ਕਰੋ</string>
+    <string name="common_google_play_services_install_text_phone">%1$s Google Play ਸੇਵਾਵਾਂ ਤੋਂ ਬਿਨਾਂ ਨਹੀਂ ਚੱਲੇਗਾ, ਜੋ ਤੁਹਾਡੇ ਫੋਨ ਤੇ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੋ ਰਹੀਆਂ ਹਨ।</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s Google Play ਸੇਵਾਵਾਂ ਤੋਂ ਬਿਨਾਂ ਨਹੀਂ ਚੱਲੇਗਾ, ਜੋ ਤੁਹਾਡੇ ਟੈਬਲੇਟ ਤੇ ਪ੍ਰਾਪਤ ਨਹੀਂ ਹੋ ਰਹੀਆਂ ਹਨ।</string>
+    <string name="common_google_play_services_install_button">Google Play ਸੇਵਾਵਾਂ ਪ੍ਰਾਪਤ ਕਰੋ</string>
+    <string name="common_google_play_services_enable_title">Google Play ਸੇਵਾਵਾਂ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ</string>
+    <string name="common_google_play_services_enable_text">%1$s ਕੰਮ ਨਹੀਂ ਕਰੇਗਾ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ Google Play ਸੇਵਾਵਾਂ ਨੂੰ ਸਮਰੱਥ ਨਹੀਂ ਬਣਾਉਂਦੇ।</string>
+    <string name="common_google_play_services_enable_button">Google Play ਸੇਵਾਵਾਂ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ</string>
+    <string name="common_google_play_services_update_title">Google Play ਸੇਵਾਵਾਂ ਅਪਡੇਟ ਕਰੋ</string>
+    <string name="common_android_wear_update_title">Android ਵੀਅਰ ਨੂੰ ਅਪਡੇਟ ਕਰੋ</string>
+    <string name="common_google_play_services_update_text">%1$s ਨਹੀਂ ਚੱਲੇਗਾ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ Google Play ਸੇਵਾਵਾਂ ਨੂੰ ਅਪਡੇਟ ਨਹੀਂ ਕਰਦੇ।</string>
+    <string name="common_android_wear_update_text">%1$s ਨਹੀਂ ਚੱਲੇਗਾ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ Android ਵੀਅਰ ਐਪ ਨੂੰ ਅਪਡੇਟ ਨਹੀਂ ਕਰਦੇ।</string>
+    <string name="common_google_play_services_updating_title">Google Play ਸੇਵਾਵਾਂ ਅਪਡੇਟ ਹੋ ਰਹੀਆਂ ਹਨ</string>
+    <string name="common_google_play_services_updating_text">%1$s Google Play ਸੇਵਾਵਾਂ ਤੋਂ ਬਿਨਾਂ ਨਹੀਂ ਚੱਲੇਗਾ, ਜੋ ਵਰਤਮਾਨ ਵਿੱਚ ਅਪਡੇਟ ਹੋ ਰਹੀਆਂ ਹਨ।</string>
+    <string name="common_google_play_services_network_error_title">ਨੈਟਵਰਕ ਅਸ਼ੁੱਧੀ</string>
+    <string name="common_google_play_services_network_error_text">Google Play ਸੇਵਾਵਾਂ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਲਈ ਇੱਕ ਡਾਟਾ ਕਨੈਕਸ਼ਨ ਦੀ ਲੋੜ ਹੈ।</string>
+    <string name="common_google_play_services_invalid_account_title">ਅਪ੍ਰਮਾਣਿਕ ਖਾਤਾ</string>
+    <string name="common_google_play_services_invalid_account_text">ਨਿਰਦਿਸ਼ਟ ਖਾਤਾ ਇਸ ਡਿਵਾਈਸ ਤੇ ਮੌਜੂਦ ਨਹੀਂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੱਖਰਾ ਖਾਤਾ ਚੁਣੋ।</string>
+    <string name="common_google_play_services_unknown_issue">Google Play ਸੇਵਾਵਾਂ ਨਾਲ ਅਗਿਆਤ ਸਮੱਸਿਆ।</string>
+    <string name="common_google_play_services_unsupported_title">Google Play ਸੇਵਾਵਾਂ</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s Google Play ਸੇਵਾਵਾਂ 'ਤੇ ਭਰੋਸਾ ਕਰਦੀ ਹੈ, ਜੋ ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਵੱਲੋਂ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ। ਸਹਾਇਤਾ ਲਈ ਨਿਰਮਾਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"</string>
+    <string name="common_google_play_services_update_button">ਅਪਡੇਟ</string>
+    <string name="common_open_on_phone">ਫੋਨ ਤੇ ਖੋਲ੍ਹੋ</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s ਲਈ ਇੱਕ ਜਾਂ ਵੱਧ Google Play ਸੇਵਾਵਾਂ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਵੇਲੇ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਸਹਾਇਤਾ ਲਈ ਵਿਕਾਸਕਾਰ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।</string>
+    <string name="common_google_play_services_sign_in_failed_title">ਸਾਈਨ ਇਨ ਅਸਫਲ ਹੋਇਆ</string>
+    <string name="common_google_play_services_sign_in_failed_text">ਨਿਰਦਿਸ਼ਟ ਖਾਤਾ ਸਾਈਨ ਇਨ ਕਰਨ ਵਿੱਚ ਅਸ਼ੁੱਧੀ। ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੱਖਰਾ ਖਾਤਾ ਚੁਣੋ।</string>
+</resources>

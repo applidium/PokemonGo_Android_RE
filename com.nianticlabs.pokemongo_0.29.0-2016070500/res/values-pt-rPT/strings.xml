@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Erro dos Serviços do Google Play</string>
+    <string name="common_google_play_services_notification_needs_update_title">Uma aplicação necessita da atualização dos Serviços do Google Play.</string>
+    <string name="common_android_wear_notification_needs_update_text">O %1$s requer uma atualização da aplicação Android Wear.</string>
+    <string name="common_google_play_services_needs_enabling_title">Uma aplicação necessita da ativação dos Serviços do Google Play.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Pedida por %1$s</string>
+    <string name="common_google_play_services_install_title">Obter serviços do Google Play</string>
+    <string name="common_google_play_services_install_text_phone">O %1$s não é executado sem os serviços do Google Play, os quais estão em falta no seu telemóvel.</string>
+    <string name="common_google_play_services_install_text_tablet">O %1$s não é executado sem os serviços do Google Play, os quais estão em falta no seu tablet.</string>
+    <string name="common_google_play_services_install_button">Obter serviços do Google Play</string>
+    <string name="common_google_play_services_enable_title">Ativar serviços do Google Play</string>
+    <string name="common_google_play_services_enable_text">O %1$s não funciona enquanto não ativar os serviços do Google Play.</string>
+    <string name="common_google_play_services_enable_button">Ativar serviços do Google Play</string>
+    <string name="common_google_play_services_update_title">Atualizar serviços do Google Play</string>
+    <string name="common_android_wear_update_title">Atualizar Android Wear</string>
+    <string name="common_google_play_services_update_text">O %1$s não é executado enquanto não atualizar os serviços do Google Play.</string>
+    <string name="common_android_wear_update_text">O %1$s não será executado enquanto não atualizar a aplicação Android Wear.</string>
+    <string name="common_google_play_services_updating_title">Serviços do Google Play em atualização</string>
+    <string name="common_google_play_services_updating_text">O %1$s não é executado sem os serviços do Google Play, os quais estão a ser atualizados.</string>
+    <string name="common_google_play_services_network_error_title">Erro de Rede</string>
+    <string name="common_google_play_services_network_error_text">É necessária uma ligação de dados para se ligar aos Serviços do Google Play.</string>
+    <string name="common_google_play_services_invalid_account_title">Conta Inválida</string>
+    <string name="common_google_play_services_invalid_account_text">A conta especificada não existe neste dispositivo. Escolha uma conta diferente.</string>
+    <string name="common_google_play_services_unknown_issue">Problema desconhecido nos serviços do Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">Serviços do Google Play</string>
+    <string name="common_google_play_services_unsupported_text">O %1$s depende dos serviços do Google Play, os quais não são compatíveis com o seu dispositivo. Contacte o fabricante para obter assistência.</string>
+    <string name="common_google_play_services_update_button">Atualizar</string>
+    <string name="common_open_on_phone">Abrir no telemóvel</string>
+    <string name="common_google_play_services_api_unavailable_text">O %1$s necessita de um ou mais Serviços do Google Play que não estão disponíveis de momento. Contacte o programador para obter assistência.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Falha ao iniciar sessão</string>
+    <string name="common_google_play_services_sign_in_failed_text">Erro ao iniciar sessão na conta especificada. Escolha uma conta diferente.</string>
+</resources>

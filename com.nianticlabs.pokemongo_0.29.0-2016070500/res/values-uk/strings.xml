@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Помилка сервісів Google Play</string>
+    <string name="common_google_play_services_notification_needs_update_title">Щоб додаток працював, потрібно оновити сервіси Google Play.</string>
+    <string name="common_android_wear_notification_needs_update_text">Для роботи додатка %1$s потрібно оновити Android Wear.</string>
+    <string name="common_google_play_services_needs_enabling_title">Щоб додаток працював, потрібно ввімкнути сервіси Google Play.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Запит від додатка %1$s</string>
+    <string name="common_google_play_services_install_title">Установіть сервіси Google Play</string>
+    <string name="common_google_play_services_install_text_phone">Додаток %1$s не працюватиме без сервісів Google Play, яких немає на вашому телефоні.</string>
+    <string name="common_google_play_services_install_text_tablet">Додаток %1$s не працюватиме без сервісів Google Play, яких немає на вашому планшеті.</string>
+    <string name="common_google_play_services_install_button">Установити сервіси Google Play</string>
+    <string name="common_google_play_services_enable_title">Увімкніть сервіси Google Play</string>
+    <string name="common_google_play_services_enable_text">Додаток %1$s не працюватиме, якщо не ввімкнути сервіси Google Play.</string>
+    <string name="common_google_play_services_enable_button">Увімкнути сервіси Google Play</string>
+    <string name="common_google_play_services_update_title">Оновіть сервіси Google Play</string>
+    <string name="common_android_wear_update_title">Оновити Android Wear</string>
+    <string name="common_google_play_services_update_text">Додаток %1$s не працюватиме, якщо не оновити сервіси Google Play.</string>
+    <string name="common_android_wear_update_text">Додаток %1$s не працюватиме, якщо не оновити Android Wear.</string>
+    <string name="common_google_play_services_updating_title">Сервіси Google Play оновлюються</string>
+    <string name="common_google_play_services_updating_text">Додаток %1$s не працюватиме без сервісів Google Play, які зараз оновлюються.</string>
+    <string name="common_google_play_services_network_error_title">Помилка мережі</string>
+    <string name="common_google_play_services_network_error_text">Для під’єднання до сервісів Google Play потрібне з’єднання з мережею.</string>
+    <string name="common_google_play_services_invalid_account_title">Недійсний обліковий запис</string>
+    <string name="common_google_play_services_invalid_account_text">Указаний обліковий запис не існує на цьому пристрої. Виберіть інший обліковий запис.</string>
+    <string name="common_google_play_services_unknown_issue">Невідома проблема із сервісами Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">Сервіси Google Play</string>
+    <string name="common_google_play_services_unsupported_text">Додаток %1$s працює завдяки сервісам Google Play, які не підтримуються на вашому пристрої. Зверніться по допомогу до виробника.</string>
+    <string name="common_google_play_services_update_button">Оновити</string>
+    <string name="common_open_on_phone">Відкрити на телефоні</string>
+    <string name="common_google_play_services_api_unavailable_text">Для роботи додатка %1$s потрібні один або декілька сервісів Google Play, які зараз недоступні. Зверніться по допомогу до розробника.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Помилка під час входу</string>
+    <string name="common_google_play_services_sign_in_failed_text">Не вдалося ввійти в указаний обліковий запис. Виберіть інший.</string>
+</resources>

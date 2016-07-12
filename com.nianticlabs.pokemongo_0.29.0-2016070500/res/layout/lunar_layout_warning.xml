@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/lunar_console_color_exception_bar_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:textAppearance="?android:textAppearanceSmall" android:typeface="monospace" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lunar_layout_console_entry_margin" android:layout_marginRight="@dimen/lunar_layout_console_entry_margin" android:src="@drawable/lunar_console_icon_log_error" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/lunar_console_color_exception_bar_text" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/lunar_console_text_warning_message" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="All your base are belong to us! All your base are belong to us! All your base are belong to us!" android:singleLine="true" android:layout_weight="1.0" />
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/lunar_console_button_details" android:src="@drawable/lunar_console_icon_button_console" style="@style/lunar_console_base_button_style" />
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/lunar_console_button_dismiss" android:src="@drawable/lunar_console_icon_button_close" style="@style/lunar_console_base_button_style" />
+</LinearLayout>

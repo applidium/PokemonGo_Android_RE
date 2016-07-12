@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Google Play-szolgáltatások – hiba</string>
+    <string name="common_google_play_services_notification_needs_update_title">Egy alkalmazás Google Play-szolgáltatások frissítését kéri.</string>
+    <string name="common_android_wear_notification_needs_update_text">A(z) %1$s alkalmazás az Android Wear alkalmazás frissítését igényli.</string>
+    <string name="common_google_play_services_needs_enabling_title">Egy alkalmazás Google Play-szolgáltatások engedélyezését kéri.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">A(z) %1$s kérésére</string>
+    <string name="common_google_play_services_install_title">Play-szolgáltatások telepítése</string>
+    <string name="common_google_play_services_install_text_phone">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek hiányoznak a telefonjáról.</string>
+    <string name="common_google_play_services_install_text_tablet">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek hiányoznak a táblagépéről.</string>
+    <string name="common_google_play_services_install_button">Play-szolgáltatások telepítése</string>
+    <string name="common_google_play_services_enable_title">Google Play-szolgáltatások aktiválása</string>
+    <string name="common_google_play_services_enable_text">A(z) %1$s alkalmazás csak akkor működik, ha Ön engedélyezi a Google Play-szolgáltatásokat.</string>
+    <string name="common_google_play_services_enable_button">Play-szolgáltatások aktiválása</string>
+    <string name="common_google_play_services_update_title">Play-szolgáltatások frissítése</string>
+    <string name="common_android_wear_update_title">Az Android Wear frissítése</string>
+    <string name="common_google_play_services_update_text">A(z) %1$s alkalmazás csak akkor fog működni, ha frissíti a Google Play-szolgáltatásokat.</string>
+    <string name="common_android_wear_update_text">A(z) %1$s alkalmazás csak az Android Wear alkalmazás frissítését követően fog működni.</string>
+    <string name="common_google_play_services_updating_title">A Google Play-szolgáltatások frissülnek</string>
+    <string name="common_google_play_services_updating_text">A(z) %1$s alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek éppen frissülnek.</string>
+    <string name="common_google_play_services_network_error_title">Hálózati hiba</string>
+    <string name="common_google_play_services_network_error_text">A Google Play-szolgáltatásokhoz történő kapcsolódáshoz adatkapcsolat szükséges.</string>
+    <string name="common_google_play_services_invalid_account_title">Érvénytelen fiók</string>
+    <string name="common_google_play_services_invalid_account_text">A megadott fiók nem létezik ezen az eszközön. Kérjük, válasszon másik fiókot.</string>
+    <string name="common_google_play_services_unknown_issue">Ismeretlen hiba a Google Play-szolgáltatásokban.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play-szolgáltatások</string>
+    <string name="common_google_play_services_unsupported_text">A(z) %1$s használatához olyan Google Play-szolgáltatásokra lesz szüksége, amelyeket eszköze nem támogat. Ha segítségre van szüksége, lépjen kapcsolatba a gyártóval.</string>
+    <string name="common_google_play_services_update_button">Frissítés</string>
+    <string name="common_open_on_phone">Megnyitás a telefonon</string>
+    <string name="common_google_play_services_api_unavailable_text">A(z) %1$s alkalmazásnak szüksége van egy vagy több, jelenleg nem elérhető Google Play-szolgáltatásra. További segítségért vegye fel a kapcsolatot a fejlesztővel.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sikertelen bejelentkezés</string>
+    <string name="common_google_play_services_sign_in_failed_text">Hiba a megadott fiókba való bejelentkezéskor. Kérjük, válasszon egy másik fiókot.</string>
+</resources>

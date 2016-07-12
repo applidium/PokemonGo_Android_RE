@@ -1,0 +1,24 @@
+{
+  "queues": [
+    {
+      "name": "config",
+      "max_age": 0,
+      "max_size": 1,
+      "count_network_fail_retries": true,
+      "retry_interval": 3,
+      "max_retry_count": 3,
+      "url_fmt": "{protocol}://{host}/config/{version}/{app_token}/",
+      "protocol": "https",
+      "host": "bootstrap.upsight-api.com"
+    }
+  ],
+  "route_filters": [
+    {
+      "filter": "upsight.config.expired",
+      "queues": [
+        "config",
+        "trash"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Google Play सेवाएं त्रुटि</string>
+    <string name="common_google_play_services_notification_needs_update_title">ऐप्लिकेशन के लिए Google Play सेवाओं में नई जानकारी की आवश्यकता है.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s को Android Wear ऐप की नई जानकारी पाने की आवश्यकता है.</string>
+    <string name="common_google_play_services_needs_enabling_title">ऐप्लिकेशन के लिए Google Play सेवाएं सक्षम किए जाने की आवश्यकता है.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">%1$s के द्वारा अनुरोधित</string>
+    <string name="common_google_play_services_install_title">Google Play सेवाएं पाएं</string>
+    <string name="common_google_play_services_install_text_phone">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा जो आपके फ़ोन में उपलब्ध नहीं हैं.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा जो आपके टैबलेट में उपलब्ध नहीं हैं.</string>
+    <string name="common_google_play_services_install_button">Google Play सेवाएं पाएं</string>
+    <string name="common_google_play_services_enable_title">Google Play सेवाएं सक्षम करें</string>
+    <string name="common_google_play_services_enable_text">%1$s तब तक कार्य नहीं करेगा जब तक आप Google Play सेवाओं को सक्षम नहीं करते.</string>
+    <string name="common_google_play_services_enable_button">Google Play सेवाएं सक्षम करें</string>
+    <string name="common_google_play_services_update_title">Google Play सेवाएं से नई जानकारी</string>
+    <string name="common_android_wear_update_title">Android Wear अपडेट करें</string>
+    <string name="common_google_play_services_update_text">%1$s तब तक नहीं चलेगा जब तक आप Google Play सेवाओं को अपडेट नहीं करते.</string>
+    <string name="common_android_wear_update_text">%1$s तब तक नहीं चलेगा, जब तक कि आप Android Wear ऐप के लिए नई जानकारी प्राप्त नहीं कर लेते.</string>
+    <string name="common_google_play_services_updating_title">Google Play सेवाएं अपडेट हो रही हैं</string>
+    <string name="common_google_play_services_updating_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा जो वर्तमान में अपडेट हो रही हैं.</string>
+    <string name="common_google_play_services_network_error_title">नेटवर्क त्रुटि</string>
+    <string name="common_google_play_services_network_error_text">Google Play सेवाओं से कनेक्ट करने के लिए डेटा कनेक्शन की आवश्यकता है.</string>
+    <string name="common_google_play_services_invalid_account_title">अमान्य खाता</string>
+    <string name="common_google_play_services_invalid_account_text">निर्दिष्ट खाता इस डिवाइस पर मौजूद नहीं है. कृपया कोई भिन्न खाता चुनें.</string>
+    <string name="common_google_play_services_unknown_issue">Google Play सेवाओं के साथ अज्ञात समस्या.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play सेवाएं</string>
+    <string name="common_google_play_services_unsupported_text">%1$s उन Google Play सेवाओं पर निर्भर है जो आपके डिवाइस द्वारा समर्थित नहीं हैं. सहायता के लिए निर्माता से संपर्क करें.</string>
+    <string name="common_google_play_services_update_button">नई जानकारी पाएं</string>
+    <string name="common_open_on_phone">फ़ोन पर खोलें</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s को ऐसी एक या अधिक Google Play सेवाओं की आवश्यकता है जो वर्तमान में उपलब्ध नहीं हैं. कृपया सहायता के लिए डेवलपर से संपर्क करें.</string>
+    <string name="common_google_play_services_sign_in_failed_title">प्रवेश करना विफल रहा</string>
+    <string name="common_google_play_services_sign_in_failed_text">निर्दिष्‍ट खाते में प्रवेश करने में त्रुटि. कृपया कोई भिन्‍न खाता चुनें.</string>
+</resources>

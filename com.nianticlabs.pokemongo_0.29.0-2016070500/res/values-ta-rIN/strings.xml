@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Google Play சேவைகள் பிழை</string>
+    <string name="common_google_play_services_notification_needs_update_title">பயன்பாடானது Google Play சேவைகளுக்கான புதுப்பிப்பைக் கேட்கிறது.</string>
+    <string name="common_android_wear_notification_needs_update_text">Android Wear பயன்பாட்டைப் புதுப்பித்தல் %1$sக்குத் தேவை.</string>
+    <string name="common_google_play_services_needs_enabling_title">பயன்பாடானது Google Play சேவைகள் இயக்கக் கேட்கிறது.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">%1$s ஆல் கோரப்பட்டது</string>
+    <string name="common_google_play_services_install_title">Google Play சேவைகளைப் பெறுக</string>
+    <string name="common_google_play_services_install_text_phone">Google Play சேவைகள் இருந்தால் மட்டுமே, %1$s செயல்படும். அவை தற்போது ஃபோனில் இல்லை.</string>
+    <string name="common_google_play_services_install_text_tablet">Google Play சேவைகள் இருந்தால் மட்டுமே, %1$s செயல்படும். அவை தற்போது டேப்லெட்டில் இல்லை.</string>
+    <string name="common_google_play_services_install_button">Google Play சேவைகளைப் பெறுக</string>
+    <string name="common_google_play_services_enable_title">Google Play சேவைகளை இயக்கு</string>
+    <string name="common_google_play_services_enable_text">Google Play சேவைகளை இயக்கினால் மட்டுமே, %1$s செயல்படும்.</string>
+    <string name="common_google_play_services_enable_button">Google Play சேவைகளை இயக்கு</string>
+    <string name="common_google_play_services_update_title">Google Play சேவைகளைப் புதுப்பி</string>
+    <string name="common_android_wear_update_title">Android வியரைப் புதுப்பி</string>
+    <string name="common_google_play_services_update_text">Google Play சேவைகளை இயக்கினால் மட்டுமே, %1$s செயல்படும்.</string>
+    <string name="common_android_wear_update_text">Android Wear பயன்பாட்டைப் புதுப்பித்தால் மட்டுமே, %1$s செயல்படும்.</string>
+    <string name="common_google_play_services_updating_title">Google Play சேவைகள் புதுப்பிக்கப்படுகின்றன</string>
+    <string name="common_google_play_services_updating_text">தற்போது புதுப்பிக்கப்படும், Google Play சேவைகள் இருந்தால் மட்டுமே, %1$s செயல்படும்.</string>
+    <string name="common_google_play_services_network_error_title">பிணைய பிழை</string>
+    <string name="common_google_play_services_network_error_text">Google Play சேவைகளில் இணைக்க தரவு இணைப்பு தேவை.</string>
+    <string name="common_google_play_services_invalid_account_title">தவறான கணக்கு</string>
+    <string name="common_google_play_services_invalid_account_text">இந்தச் சாதனத்தில் குறிப்பிடப்பட்ட கணக்கு இல்லை. வேறு கணக்கைத் தேர்வு செய்யவும்.</string>
+    <string name="common_google_play_services_unknown_issue">Google Play சேவைகளில் அறியப்படாத சிக்கல் உள்ளது.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play சேவைகள்</string>
+    <string name="common_google_play_services_unsupported_text">சாதனம் ஆதரிக்காத Google Play சேவைகளை %1$s சார்ந்துள்ளது. உதவிக்கு, தயாரிப்பாளரைத் தொடர்புகொள்ளவும்.</string>
+    <string name="common_google_play_services_update_button">புதுப்பி</string>
+    <string name="common_open_on_phone">ஃபோனில் திற</string>
+    <string name="common_google_play_services_api_unavailable_text">தற்போது கிடைக்காத, ஒன்று அல்லது அதற்கு மேற்பட்ட Google Play சேவைகள் %1$sக்குத் தேவை. உதவிக்கு, டெவெலப்பரைத் தொடர்புகொள்ளவும்.</string>
+    <string name="common_google_play_services_sign_in_failed_title">உள்நுழைவு தோல்வி</string>
+    <string name="common_google_play_services_sign_in_failed_text">குறிப்பிட்ட கணக்கில் உள்நுழைவதில் பிழை. வேறு கணக்கைத் தேர்ந்தெடுக்கவும்.</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.IAPTheme" parent="@android:style/Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+    <style name="AppTheme" parent="@style/AppBaseTheme" />
+    <style name="FloatingActivityTheme" parent="@style/AppTheme">
+        <item name="android:windowBackground">@color/np_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.UpsightDialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar">
+        <item name="android:windowMinWidthMajor">95.00001%</item>
+        <item name="android:windowMinWidthMinor">95.00001%</item>
+    </style>
+    <style name="lunar_console_base_button_style">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">48.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="lunar_console_base_text_style">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/lunar_console_color_cell_text</item>
+    </style>
+    <style name="lunar_console_fake_status_bar_style">
+        <item name="android:textColor">@color/lunar_console_color_fake_status_bar_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/lunar_console_color_fake_status_bar</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">20.0dip</item>
+    </style>
+    <style name="lunar_console_filter_edit_text_style">
+        <item name="android:textColor">@color/lunar_console_color_cell_text</item>
+        <item name="android:textColorHighlight">@color/lunar_console_color_cell_text</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/lunar_console_shape_edit_text</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:imeOptions">actionSearch</item>
+    </style>
+    <style name="lunar_console_log_button_style" parent="@style/lunar_console_base_button_style">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">#ffb1b1b1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">66.0dip</item>
+        <item name="android:layout_height">30.0dip</item>
+        <item name="android:text">999+</item>
+    </style>
+    <style name="lunar_console_log_details_message_style" parent="@style/lunar_console_base_text_style" />
+    <style name="lunar_console_log_details_stacktrace_style" parent="@style/lunar_console_base_text_style">
+        <item name="android:textSize">10.0sp</item>
+    </style>
+    <style name="lunar_console_log_entry_message_style" parent="@style/lunar_console_base_text_style" />
+    <style name="UnityThemeSelector" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+</resources>

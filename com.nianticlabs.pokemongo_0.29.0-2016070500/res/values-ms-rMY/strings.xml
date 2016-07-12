@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Ralat perkhidmatan Google Play</string>
+    <string name="common_google_play_services_notification_needs_update_title">Perkhidmatan Google Play perlu dikemas kini utk menggunakan aplikasi.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s memerlukan kemas kini apl Android Wear.</string>
+    <string name="common_google_play_services_needs_enabling_title">Perkhidmatan Google Play perlu didayakan untuk menggunakan aplikasi.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Diminta oleh %1$s</string>
+    <string name="common_google_play_services_install_title">Dapatkan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_install_text_phone">%1$s tidak akan berfungsi tanpa perkhidmatan Google Play dan perkhidmatan ini tiada pada telefon anda.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s tidak akan berfungsi tanpa perkhidmatan Google Play dan perkhidmatan ini tiada pada telefon anda.</string>
+    <string name="common_google_play_services_install_button">Dapatkan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_enable_title">Dayakan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_enable_text">%1$s tidak akan berfungsi kecuali anda mendayakan perkhidmatan Google Play.</string>
+    <string name="common_google_play_services_enable_button">Dayakan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_update_title">Kemas kini perkhidmatan Google Play</string>
+    <string name="common_android_wear_update_title">Kemas kini Android Wear</string>
+    <string name="common_google_play_services_update_text">%1$s tidak akan berfungsi kecuali anda mengemas kini perkhidmatan Google Play.</string>
+    <string name="common_android_wear_update_text">%1$s tidak akan berfungsi melainkan anda mengemas kini apl Android Wear.</string>
+    <string name="common_google_play_services_updating_title">Perkhidmatan Google Play sdg dikemaskini</string>
+    <string name="common_google_play_services_updating_text">%1$s tidak akan berfungsi tanpa perkhidmatan Google Play dan perkhidmatan ini sedang dikemas kini.</string>
+    <string name="common_google_play_services_network_error_title">Ralat Rangkaian</string>
+    <string name="common_google_play_services_network_error_text">Sambungan data diperlukan untuk menyambung ke perkhidmatan Google Play.</string>
+    <string name="common_google_play_services_invalid_account_title">Akaun Tidak Sah</string>
+    <string name="common_google_play_services_invalid_account_text">Akaun yang dinyatakan tidak wujud pada peranti ini. Sila pilih akaun yang lain.</string>
+    <string name="common_google_play_services_unknown_issue">Isu tidak diketahui dengan perkhidmatan Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">Perkhidmatan Google Play</string>
+    <string name="common_google_play_services_unsupported_text">%1$s bergantung pada perkhidmatan Google Play, yang tidak disokong oleh peranti anda. Hubungi pengeluar untuk mendapatkan bantuan.</string>
+    <string name="common_google_play_services_update_button">Kemas kini</string>
+    <string name="common_open_on_phone">Buka pada telefon</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s memerlukan satu atau lebih perkhidmatan Google Play yang tidak tersedia pada masa ini. Sila hubungi pembangun untuk mendapatkan bantuan.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Gagal melog masuk</string>
+    <string name="common_google_play_services_sign_in_failed_text">Ralat melog masuk ke akaun yang dinyatakan. Sila pilih akaun yang berbeza.</string>
+</resources>

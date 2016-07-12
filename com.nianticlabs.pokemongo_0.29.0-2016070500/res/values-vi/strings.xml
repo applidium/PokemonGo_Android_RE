@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Lỗi dịch vụ của Google Play</string>
+    <string name="common_google_play_services_notification_needs_update_title">Một ứng dụng yêu cầu cập nhật đối với các dịch vụ của Google Play.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s yêu cầu phải cập nhật lên ứng dụng Android Wear.</string>
+    <string name="common_google_play_services_needs_enabling_title">Một ứng dụng yêu cầu bật các dịch vụ của Google Play.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Được yêu cầu bởi %1$s</string>
+    <string name="common_google_play_services_install_title">Cài đặt dịch vụ của Google Play</string>
+    <string name="common_google_play_services_install_text_phone">%1$s sẽ không chạy khi không có Dịch vụ của Google Play bị thiếu trên điện thoại của bạn.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s sẽ không chạy khi không có Dịch vụ của Google Play bị thiếu trên máy tính bảng của bạn.</string>
+    <string name="common_google_play_services_install_button">Cài đặt dịch vụ của Google Play</string>
+    <string name="common_google_play_services_enable_title">Bật dịch vụ của Google Play</string>
+    <string name="common_google_play_services_enable_text">%1$s sẽ không hoạt động trừ khi bạn kích hoạt Dịch vụ của Google Play.</string>
+    <string name="common_google_play_services_enable_button">Bật dịch vụ của Google Play</string>
+    <string name="common_google_play_services_update_title">Cập nhật dịch vụ của Google Play</string>
+    <string name="common_android_wear_update_title">Cập nhật Android Wear</string>
+    <string name="common_google_play_services_update_text">%1$s sẽ không chạy trừ khi bạn cập nhật Dịch vụ của Google Play.</string>
+    <string name="common_android_wear_update_text">%1$s sẽ không chạy trừ khi bạn cập nhật ứng dụng Android Wear.</string>
+    <string name="common_google_play_services_updating_title">Dịch vụ của Google Play đang cập nhật</string>
+    <string name="common_google_play_services_updating_text">%1$s sẽ không chạy khi không có Dịch vụ của Google Play đang cập nhật.</string>
+    <string name="common_google_play_services_network_error_title">Lỗi mạng</string>
+    <string name="common_google_play_services_network_error_text">Cần có kết nối dữ liệu để kết nối với các dịch vụ của Google Play.</string>
+    <string name="common_google_play_services_invalid_account_title">Tài khoản không hợp lệ</string>
+    <string name="common_google_play_services_invalid_account_text">Tài khoản đã chỉ định không tồn tại trên thiết bị này. Vui lòng chọn một tài khoản khác.</string>
+    <string name="common_google_play_services_unknown_issue">Sự cố không xác định với dịch vụ của Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">Dịch vụ của Google Play</string>
+    <string name="common_google_play_services_unsupported_text">%1$s chạy trên Dịch vụ của Google Play không được thiết bị của bạn hỗ trợ. Liên hệ với nhà sản xuất để được hỗ trợ.</string>
+    <string name="common_google_play_services_update_button">Cập nhật</string>
+    <string name="common_open_on_phone">Mở trên điện thoại</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s yêu cầu một hoặc nhiều Dịch vụ của Google Play hiện không có sẵn. Vui lòng liên hệ với nhà phát triển để được hỗ trợ.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Đăng nhập không thành công</string>
+    <string name="common_google_play_services_sign_in_failed_text">Lỗi khi đăng nhập vào tài khoản được chỉ định. Vui lòng chọn một tài khoản khác.</string>
+</resources>

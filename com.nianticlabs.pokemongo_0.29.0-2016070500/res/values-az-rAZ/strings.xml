@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Google Play xidmətləri xətası</string>
+    <string name="common_google_play_services_notification_needs_update_title">Bir tətbiq Google Play Xidmətləri üçün güncəlləşmə tələb edir.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s Android Wear tətbiqi üçün güncəlləşmə tələb edir.</string>
+    <string name="common_google_play_services_needs_enabling_title">Tətbiq Google Play Xidmətlərinin aktivləşməsini tələb edir.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">%1$s tərəfindən tələb edilib</string>
+    <string name="common_google_play_services_install_title">Google Play xidmətləri əldə et</string>
+    <string name="common_google_play_services_install_text_phone">%1$s Sizin telefon itkin Google Play xidmətləri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s tablet itkin Google Play xidmətləri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_install_button">Google Play xidmətlərini əldə et</string>
+    <string name="common_google_play_services_enable_title">Google Play xidmətlərini aktiv et</string>
+    <string name="common_google_play_services_enable_text">Google Play xidmətlərini aktiv etməsəniz, %1$s işləməyəcək.</string>
+    <string name="common_google_play_services_enable_button">Google Play xidmətlərini aktiv et</string>
+    <string name="common_google_play_services_update_title">Update Google Play xidmətlərini güncəlllə</string>
+    <string name="common_android_wear_update_title">"Android Wear'i güncəlləşdirin"</string>
+    <string name="common_google_play_services_update_text">%1$s Google Play xidmətləri yeniləmə halda çalışmaz.</string>
+    <string name="common_android_wear_update_text">Android Wear güncəlləşməsə, %1$s işləməyəcək.</string>
+    <string name="common_google_play_services_updating_title">Google Play xidmətləri təzələyirik</string>
+    <string name="common_google_play_services_updating_text">%1$s Hal-hazırda təzələyirik Google Play xidmətləri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_network_error_title">Şəbəkə Xətası</string>
+    <string name="common_google_play_services_network_error_text">Google Play xidmətlərinə qoşulmaq üçün data bağlantısı tələb olunur.</string>
+    <string name="common_google_play_services_invalid_account_title">Etibarsız Hesab</string>
+    <string name="common_google_play_services_invalid_account_text">Göstərilmiş hesab bu cihazda mövcud deyil. Fərqli hesab seçin.</string>
+    <string name="common_google_play_services_unknown_issue">Google Play xidmətləri ilə bağlı naməlum problem</string>
+    <string name="common_google_play_services_unsupported_title">Google Play xidmətləri</string>
+    <string name="common_google_play_services_unsupported_text">%1$s Sizin cihaz tərəfindən dəstəklənən deyil ki, Google Play xidmətləri, əsaslanır. Yardım üçün istehsalçısı ilə əlaqə saxlayın.</string>
+    <string name="common_google_play_services_update_button">Güncəllə</string>
+    <string name="common_open_on_phone">Telefonda açın</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s hazırda əlçatmaz olan bir və ya daha çox Google Play xidməti tələb edir.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Daxil olmadı</string>
+    <string name="common_google_play_services_sign_in_failed_text">Göstərilən hesaba daxil olarkən səhv baş verdi. Lütfən fərqli bir hesab seçin.</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Error sa Mga Serbisyo ng Google Play</string>
+    <string name="common_google_play_services_notification_needs_update_title">Kailangan ng application ng update sa Mga Serbisyo ng Google Play.</string>
+    <string name="common_android_wear_notification_needs_update_text">Ang %1$s ay nangangailangan ng update sa Android Wear app.</string>
+    <string name="common_google_play_services_needs_enabling_title">Kailangan ng application na na-enable ang Mga Serbisyo ng Google Play.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Hiniling ng %1$s</string>
+    <string name="common_google_play_services_install_title">Kumuha ng mga serbisyo ng Google Play</string>
+    <string name="common_google_play_services_install_text_phone">Hindi gagana ang %1$s nang wala ang mga serbisyo ng Google Play na wala sa iyong telepono.</string>
+    <string name="common_google_play_services_install_text_tablet">Hindi gagana ang %1$s nang wala ang mga serbisyo ng Google Play na wala sa iyong tablet.</string>
+    <string name="common_google_play_services_install_button">Kumuha ng Google Play services</string>
+    <string name="common_google_play_services_enable_title">Paganahin ang Google Play services</string>
+    <string name="common_google_play_services_enable_text">Hindi gagana ang %1$s maliban kung i-e-enable mo ang mga serbisyo ng Google Play.</string>
+    <string name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string name="common_google_play_services_update_title">I-update ang mga serbisyo ng Google Play</string>
+    <string name="common_android_wear_update_title">I-update ang Android Wear</string>
+    <string name="common_google_play_services_update_text">Hindi gagana ang %1$s maliban kung i-a-update mo ang mga serbisyo ng Google Play.</string>
+    <string name="common_android_wear_update_text">Hindi gagana ang %1$s maliban kung i-a-update mo ang Android Wear app.</string>
+    <string name="common_google_play_services_updating_title">Ina-update mga serbisyo ng Google Play</string>
+    <string name="common_google_play_services_updating_text">Hindi gagana ang %1$s nang wala ang mga serbisyo ng Google Play na kasalukuyang ina-update.</string>
+    <string name="common_google_play_services_network_error_title">May Error sa Network</string>
+    <string name="common_google_play_services_network_error_text">Kailangan ng koneksyon ng data upang makakonekta sa mga serbisyo ng Google Play.</string>
+    <string name="common_google_play_services_invalid_account_title">Di-wasto ang Account</string>
+    <string name="common_google_play_services_invalid_account_text">Hindi umiiral ang tinukoy na account sa device na ito. Mangyaring pumili ng ibang account.</string>
+    <string name="common_google_play_services_unknown_issue">May hindi alam na isyu sa mga serbisyo ng Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">Mga serbisyo ng Google Play</string>
+    <string name="common_google_play_services_unsupported_text">Sumasalalay ang %1$s sa mga serbisyo ng Google Play na hindi sinusuportahan ng iyong device. Makipag-ugnayan sa manufacturer para sa tulong.</string>
+    <string name="common_google_play_services_update_button">I-update</string>
+    <string name="common_open_on_phone">Buksan sa telepono</string>
+    <string name="common_google_play_services_api_unavailable_text">Kailangan ng %1$s ng isa o higit pang mga serbisyo ng Google Play na kasalukuyang hindi available. Mangyaring makipag-ugnayan sa developer para sa tulong.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Hindi nakapag-sign in</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error sa pagsa-sign in sa tinukoy na account. Pakipili ng ibang account.</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Error dels serveis de Google Play</string>
+    <string name="common_google_play_services_notification_needs_update_title">"Una aplicació requereix que s'actualitzin els serveis de Google Play."</string>
+    <string name="common_android_wear_notification_needs_update_text">"%1$s necessita que s'actualitzi l'aplicació Android Wear."</string>
+    <string name="common_google_play_services_needs_enabling_title">"Una aplicació requereix que s'activin els serveis de Google Play."</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Sol·licitada per %1$s</string>
+    <string name="common_google_play_services_install_title">Baixa els serveis de Google Play</string>
+    <string name="common_google_play_services_install_text_phone">"%1$s no s'executarà si el telèfon no té instal·lats els serveis de Google Play."</string>
+    <string name="common_google_play_services_install_text_tablet">"%1$s no s'executarà si la tauleta no té instal·lats els serveis de Google Play."</string>
+    <string name="common_google_play_services_install_button">Baixa els serveis de Google Play</string>
+    <string name="common_google_play_services_enable_title">Activa els serveis de Google Play</string>
+    <string name="common_google_play_services_enable_text">%1$s no funcionarà si no actives els serveis de Google Play.</string>
+    <string name="common_google_play_services_enable_button">Activa els serveis de Google Play</string>
+    <string name="common_google_play_services_update_title">Actualitza els serveis de Google Play</string>
+    <string name="common_android_wear_update_title">Actualitza Android Wear</string>
+    <string name="common_google_play_services_update_text">"%1$s no s'executarà si no actualitzes els serveis de Google Play."</string>
+    <string name="common_android_wear_update_text">"%1$s no s'executarà fins que no actualitzis l'aplicació Android Wear."</string>
+    <string name="common_google_play_services_updating_title">Actualitzant els serveis de Google Play</string>
+    <string name="common_google_play_services_updating_text">"%1$s no s'executarà sense els serveis de Google Play, que s'estan actualitzant en aquest moment."</string>
+    <string name="common_google_play_services_network_error_title">Error de xarxa</string>
+    <string name="common_google_play_services_network_error_text">Es requereix una connexió de dades per connectar amb els serveis de Google Play.</string>
+    <string name="common_google_play_services_invalid_account_title">Compte no vàlid</string>
+    <string name="common_google_play_services_invalid_account_text">El compte especificat no existeix en aquest dispositiu. Tria un compte diferent.</string>
+    <string name="common_google_play_services_unknown_issue">Error desconegut relacionat amb els serveis de Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">Serveis de Google Play</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s depèn dels serveis de Google Play, que no són compatibles amb el teu dispositiu. Posa't en contacte amb el fabricant per obtenir ajuda."</string>
+    <string name="common_google_play_services_update_button">Actualitza</string>
+    <string name="common_open_on_phone">Obre al telèfon</string>
+    <string name="common_google_play_services_api_unavailable_text">"%1$s necessita un o més serveis de Google Play que actualment no estan disponibles. Posa't en contacte amb el desenvolupador per obtenir ajuda."</string>
+    <string name="common_google_play_services_sign_in_failed_title">"S'ha produït un error en iniciar sessió."</string>
+    <string name="common_google_play_services_sign_in_failed_text">"S'ha produït un error en iniciar la sessió al compte especificat. Selecciona un altre compte."</string>
+</resources>

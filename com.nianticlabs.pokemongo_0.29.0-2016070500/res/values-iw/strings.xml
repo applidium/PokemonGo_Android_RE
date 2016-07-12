@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">‏שגיאה בשירותי Google Play</string>
+    <string name="common_google_play_services_notification_needs_update_title">‏קיימת אפליקציה המחייבת עדכון עבור שירותי Google Play.</string>
+    <string name="common_android_wear_notification_needs_update_text">‏%1$s דורש עדכון לאפליקציה Android Wear.</string>
+    <string name="common_google_play_services_needs_enabling_title">‏קיימת אפליקציה המחייבת הפעלה של שירותי Google Play.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">התבקשה על ידי %1$s</string>
+    <string name="common_google_play_services_install_title">‏קבל את שירותי Google Play</string>
+    <string name="common_google_play_services_install_text_phone">‏%1$s לא יפעל ללא שירותי Google Play, שחסרים בטלפון שלך.</string>
+    <string name="common_google_play_services_install_text_tablet">‏%1$s לא יפעל ללא שירותי Google Play, שחסרים בטאבלט שלך.</string>
+    <string name="common_google_play_services_install_button">‏קבל את שירותי Google Play</string>
+    <string name="common_google_play_services_enable_title">‏הפעלת שירותי Google Play</string>
+    <string name="common_google_play_services_enable_text">‏%1$s לא יפעל אם לא תפעיל את שירותי Google Play.</string>
+    <string name="common_google_play_services_enable_button">‏הפעל את שירותי Google Play</string>
+    <string name="common_google_play_services_update_title">‏עדכון שירותי Google Play</string>
+    <string name="common_android_wear_update_title">‏עדכון Android Wear</string>
+    <string name="common_google_play_services_update_text">‏%1$s לא יפעל אם לא תעדכן את שירותי Google Play.</string>
+    <string name="common_android_wear_update_text">‏%1$s לא יפעל עד שתעדכן את האפליקציה Android Wear.</string>
+    <string name="common_google_play_services_updating_title">‏שירותי Google Play מתעדכנים</string>
+    <string name="common_google_play_services_updating_text">‏%1$s לא יפעל ללא שירותי Google Play, שמתעדכנים כרגע.</string>
+    <string name="common_google_play_services_network_error_title">שגיאת רשת.</string>
+    <string name="common_google_play_services_network_error_text">‏דרוש חיבור נתונים כדי להתחבר לשירותי Google Play.</string>
+    <string name="common_google_play_services_invalid_account_title">חשבון לא חוקי</string>
+    <string name="common_google_play_services_invalid_account_text">החשבון שצוין לא קיים במכשיר זה. בחר חשבון אחר.</string>
+    <string name="common_google_play_services_unknown_issue">‏בעיה לא ידועה בשירותי Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">‏שירותי Google Play</string>
+    <string name="common_google_play_services_unsupported_text">‏%1$s מתבסס על שירותי Google Play, שאינם נתמכים במכשיר שלך. צור קשר עם היצרן לקבלת סיוע.</string>
+    <string name="common_google_play_services_update_button">עדכן</string>
+    <string name="common_open_on_phone">פתח בטלפון</string>
+    <string name="common_google_play_services_api_unavailable_text">‏ל-%1$s נדרש שירות אחד או יותר של Google Play שאינו זמין כעת. צור קשר עם המפתח לקבלת סיוע.</string>
+    <string name="common_google_play_services_sign_in_failed_title">הכניסה נכשלה</string>
+    <string name="common_google_play_services_sign_in_failed_text">אירעה שגיאה בעת הכניסה אל החשבון המצוין. בחר חשבון אחר.</string>
+</resources>

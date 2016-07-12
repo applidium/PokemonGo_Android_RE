@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Errore Google Play Services</string>
+    <string name="common_google_play_services_notification_needs_update_title">"Un'applicazione richiede un aggiornamento di Google Play Services."</string>
+    <string name="common_android_wear_notification_needs_update_text">"%1$s richiede l'aggiornamento dell'app Android Wear."</string>
+    <string name="common_google_play_services_needs_enabling_title">"Un'applicazione richiede l'attivazione di Google Play Services."</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Richiesta da %1$s</string>
+    <string name="common_google_play_services_install_title">Installa Google Play Services</string>
+    <string name="common_google_play_services_install_text_phone">%1$s non funzionerà senza Google Play Services, non presente sul tuo telefono.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s non funzionerà senza Google Play Services, non presente sul tuo tablet.</string>
+    <string name="common_google_play_services_install_button">Installa Google Play Services</string>
+    <string name="common_google_play_services_enable_title">Attiva Google Play Services</string>
+    <string name="common_google_play_services_enable_text">%1$s non funzionerà se non attivi Google Play Services.</string>
+    <string name="common_google_play_services_enable_button">Attiva Google Play Services</string>
+    <string name="common_google_play_services_update_title">Aggiorna Google Play Services</string>
+    <string name="common_android_wear_update_title">Aggiorna Android Wear</string>
+    <string name="common_google_play_services_update_text">%1$s non funzionerà se non aggiorni Google Play Services.</string>
+    <string name="common_android_wear_update_text">%1$s funzionerà solo dopo avere aggiornato Android Wear.</string>
+    <string name="common_google_play_services_updating_title">Aggiornamento di Google Play Services</string>
+    <string name="common_google_play_services_updating_text">%1$s non funzionerà senza Google Play Services, attualmente in fase di aggiornamento.</string>
+    <string name="common_google_play_services_network_error_title">Errore di rete</string>
+    <string name="common_google_play_services_network_error_text">È necessaria una connessione dati per connettersi a Google Play Services.</string>
+    <string name="common_google_play_services_invalid_account_title">Account non valido</string>
+    <string name="common_google_play_services_invalid_account_text">"L'account specificato non esiste su questo dispositivo. Scegli un altro account."</string>
+    <string name="common_google_play_services_unknown_issue">Problema sconosciuto con Google Play Services.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play Services</string>
+    <string name="common_google_play_services_unsupported_text">%1$s si basa su Google Play Services, che non è supportato sul tuo dispositivo. Contatta il produttore per ricevere assistenza.</string>
+    <string name="common_google_play_services_update_button">Aggiorna</string>
+    <string name="common_open_on_phone">Apri sul telefono</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s richiede uno o più servizi di Google Play che non sono attualmente disponibili. Contatta lo sviluppatore per ricevere assistenza.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Accesso non riuscito</string>
+    <string name="common_google_play_services_sign_in_failed_text">"Errore durante l'accesso all'account specificato. Scegli un altro account."</string>
+</resources>

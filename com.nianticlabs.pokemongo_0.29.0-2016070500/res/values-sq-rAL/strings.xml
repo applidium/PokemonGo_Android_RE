@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Gabim në shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_notification_needs_update_title">Një aplikacion kërkon përditësim për shërbimet e \"Luaj me Google\".</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s kërkon një përditësim të aplikacionit të \"Teknologjisë Android që vishet\".</string>
+    <string name="common_google_play_services_needs_enabling_title">"Një aplikacion kërkon shërbimet e \"Luaj me Google\" për t'u aktivizuar."</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Kërkuar nga %1$s</string>
+    <string name="common_google_play_services_install_title">Merr shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_install_text_phone">%1$s nuk do të funksionojë pa shërbimet e \"Luaj me Google\", të cilat mungojnë në telefonin tënd.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s nuk do të funksionojë pa shërbimet e \"Luaj me Google\", të cilat mungojnë në tabletin tënd.</string>
+    <string name="common_google_play_services_install_button">Merr shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_enable_title">Aktivizo shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_enable_text">%1$s nuk do të funksionojë nëse nuk aktivizon shërbimet e \"Luaj me Google\".</string>
+    <string name="common_google_play_services_enable_button">Aktivizo shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_update_title">Përditëso shërbimet e \"Luaj me Google\"</string>
+    <string name="common_android_wear_update_title">Përditëso \"Teknologjia Android që vishet\"</string>
+    <string name="common_google_play_services_update_text">%1$s nuk do të funksionojë nëse nuk përditëson shërbimet e \"Luaj me Google\".</string>
+    <string name="common_android_wear_update_text">%1$s nuk do të ekzekutohet nëse nuk përditëson aplikacionin e \"Teknologjisë Android që vishet\".</string>
+    <string name="common_google_play_services_updating_title">Shërbimet e \"Luaj\" po përditësohen</string>
+    <string name="common_google_play_services_updating_text">%1$s nuk do të funksionojë pa shërbimet e \"Luaj me Google\", të cilat po përditësohen aktualisht.</string>
+    <string name="common_google_play_services_network_error_title">Gabim rrjeti</string>
+    <string name="common_google_play_services_network_error_text">"Kërkohet një lidhje të dhënash për t'u lidhur me shërbimet e \"Luaj me Google\"."</string>
+    <string name="common_google_play_services_invalid_account_title">Llogari e pavlefshme</string>
+    <string name="common_google_play_services_invalid_account_text">Llogaria e specifikuar nuk ekziston në këtë pajisje. Zgjidh një llogari tjetër.</string>
+    <string name="common_google_play_services_unknown_issue">Problem i panjohur me shërbimet e \"Luaj me Google\".</string>
+    <string name="common_google_play_services_unsupported_title">Shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_unsupported_text">%1$s mbështetet në shërbimet e \"Luaj me Google\", të cilat nuk mbështeten nga pajisja jote. Kontakto me prodhuesin për ndihmë.</string>
+    <string name="common_google_play_services_update_button">Përditëso</string>
+    <string name="common_open_on_phone">Hape në telefon</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s kërkon një ose më shumë shërbime të \"Luaj me Google\" që aktualisht janë të papërdorshme. Kontakto me zhvilluesin për ndihmë.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Identifikimi dështoi!</string>
+    <string name="common_google_play_services_sign_in_failed_text">Gabim gjatë identifikimit në llogarinë e specifikuar. Zgjidh një llogari tjetër.</string>
+</resources>

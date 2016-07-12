@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/lunar_console_log_entry_layout" android:background="@color/lunar_console_color_cell_background_dark" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/lunar_console_log_entry_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/lunar_layout_console_entry_margin" android:src="@drawable/lunar_console_icon_log" />
+    <TextView android:id="@id/lunar_console_log_entry_message" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Message" android:layout_weight="1.0" style="@style/lunar_console_log_details_message_style" />
+</LinearLayout>

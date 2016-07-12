@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Google Play pakalpojumu kļūda</string>
+    <string name="common_google_play_services_notification_needs_update_title">Lai lietojumprogramma darbotos, jāatjaunina Google Play pakalpojumi.</string>
+    <string name="common_android_wear_notification_needs_update_text">Lai lietotne %1$s darbotos, ir jāatjaunina lietotne Android Wear.</string>
+    <string name="common_google_play_services_needs_enabling_title">Lai lietojumprogramma darbotos, jāiespējo Google Play pakalpojumi.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Pieprasījums no lietotnes %1$s</string>
+    <string name="common_google_play_services_install_title">Google Play pakalpojumu iegūšana</string>
+    <string name="common_google_play_services_install_text_phone">Lai lietotne %1$s darbotos, tālrunī ir jāinstalē Google Play pakalpojumi.</string>
+    <string name="common_google_play_services_install_text_tablet">Lai lietotne %1$s darbotos, planšetdatorā ir jāinstalē Google Play pakalpojumi.</string>
+    <string name="common_google_play_services_install_button">Iegūt Google Play pakalpojumus</string>
+    <string name="common_google_play_services_enable_title">Google Play pakalpojumu iespējošana</string>
+    <string name="common_google_play_services_enable_text">Lai lietotne %1$s darbotos, jums ir jāiespējo Google Play pakalpojumi.</string>
+    <string name="common_google_play_services_enable_button">Iespējot Google Play pakalpojumus</string>
+    <string name="common_google_play_services_update_title">Google Play pakalpojumu atjaunināšana</string>
+    <string name="common_android_wear_update_title">Android Wear atjaunināšana</string>
+    <string name="common_google_play_services_update_text">Lai lietotne %1$s darbotos, jums ir jāatjaunina Google Play pakalpojumi.</string>
+    <string name="common_android_wear_update_text">Lai lietotne %1$s darbotos, jums ir jāatjaunina lietotne Android Wear.</string>
+    <string name="common_google_play_services_updating_title">Pašlaik notiek Google Play pakalpojumu atjaunināšana</string>
+    <string name="common_google_play_services_updating_text">Lai lietotne %1$s darbotos, ir jāinstalē Google Play pakalpojumi. Pašlaik notiek to atjaunināšana.</string>
+    <string name="common_google_play_services_network_error_title">Tīkla kļūda</string>
+    <string name="common_google_play_services_network_error_text">Lai izveidotu savienojumu ar Google Play pakalpojumiem, ir nepieciešams datu savienojums.</string>
+    <string name="common_google_play_services_invalid_account_title">Nederīgs konts</string>
+    <string name="common_google_play_services_invalid_account_text">Norādītais konts šajā ierīcē nepastāv. Lūdzu, izvēlieties citu kontu.</string>
+    <string name="common_google_play_services_unknown_issue">Nezināma problēma ar Google Play pakalpojumiem.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play pakalpojumi</string>
+    <string name="common_google_play_services_unsupported_text">Lai lietotne %1$s darbotos, ir jāinstalē Google Play pakalpojumi, taču tie jūsu ierīcē netiek atbalstīti. Sazinieties ar ražotāju, lai saņemtu palīdzību.</string>
+    <string name="common_google_play_services_update_button">Atjaunināt</string>
+    <string name="common_open_on_phone">Atvērt tālrunī</string>
+    <string name="common_google_play_services_api_unavailable_text">Lai lietotne %1$s darbotos, ir nepieciešams viens vai vairāki Google Play pakalpojumi, kas pašlaik nav pieejami. Lai saņemtu palīdzību, lūdzu, sazinieties ar izstrādātāju.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Neizdevās pierakstīties</string>
+    <string name="common_google_play_services_sign_in_failed_text">Pierakstoties norādītajā kontā, radās kļūda. Lūdzu, izvēlieties citu kontu.</string>
+</resources>

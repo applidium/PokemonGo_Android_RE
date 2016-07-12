@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Hitilafu kwenye huduma za Google Play</string>
+    <string name="common_google_play_services_notification_needs_update_title">Programu inahitaji toleo jipya la huduma za Google Play.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s inahitaji programu ya Android Wear isasishwe.</string>
+    <string name="common_google_play_services_needs_enabling_title">Programu inahitaji huduma za Google Play ili iwashwe.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Imeombwa na %1$s</string>
+    <string name="common_google_play_services_install_title">Pata huduma za Google Play</string>
+    <string name="common_google_play_services_install_text_phone">%1$s haitafanya kazi bila huduma za Google Play, ambazo hazipatikani kwenye simu yako.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s haitafanya kazi bila huduma za Google Play, ambazo hazipatikani kwenye kompyuta yako kibao.</string>
+    <string name="common_google_play_services_install_button">Pata huduma za Google Play</string>
+    <string name="common_google_play_services_enable_title">Wezesha huduma za Google Play</string>
+    <string name="common_google_play_services_enable_text">%1$s haitafanya kazi mpaka uwashe huduma za Google Play.</string>
+    <string name="common_google_play_services_enable_button">Wezesha huduma za Google Play</string>
+    <string name="common_google_play_services_update_title">Sasisha huduma za Google Play</string>
+    <string name="common_android_wear_update_title">Sasisha Android Wear</string>
+    <string name="common_google_play_services_update_text">%1$s haitafanya kazi hadi usasishe huduma za Google Play.</string>
+    <string name="common_android_wear_update_text">%1$s haitafanya kazi usiposasisha programu ya Android Wear.</string>
+    <string name="common_google_play_services_updating_title">Huduma za Google Play zinasasishwa</string>
+    <string name="common_google_play_services_updating_text">%1$s haitafanya kazi bila huduma za Google Play, ambazo zinasasishwa kwa sasa.</string>
+    <string name="common_google_play_services_network_error_title">Hitilafu ya Mtandao</string>
+    <string name="common_google_play_services_network_error_text">Muunganisho wa data unahitajika ili kuunganisha kwenye huduma za Google Play.</string>
+    <string name="common_google_play_services_invalid_account_title">Akaunti Batili</string>
+    <string name="common_google_play_services_invalid_account_text">Akaunti iliyobainishwa haipo kwenye kifaa hiki. Tafadhali chagua akaunti tofauti.</string>
+    <string name="common_google_play_services_unknown_issue">Suala lisilojulikana na huduma za Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">Huduma za Google Play</string>
+    <string name="common_google_play_services_unsupported_text">%1$s hutegemea huduma za Google Play, ambazo hazitumiki kwenye kifaa chako. Wasiliana na mtengenezaji kwa usaidizi.</string>
+    <string name="common_google_play_services_update_button">Sasisha</string>
+    <string name="common_open_on_phone">Fungua kwenye simu</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s inahitaji huduma moja au zaidi za Google Play ambazo hazipatikani kwa sasa. Tafadhali wasiliana na msanidi programu kwa usaidizi.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Imeshindwa kuingia katika akaunti</string>
+    <string name="common_google_play_services_sign_in_failed_text">Hitilafu wakati wa kuingia katika akaunti iliyobainishwa. Tafadhali chagua akaunti tofauti.</string>
+</resources>

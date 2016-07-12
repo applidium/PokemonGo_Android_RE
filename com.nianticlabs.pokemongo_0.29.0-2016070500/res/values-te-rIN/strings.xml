@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">Google Play సేవల లోపం</string>
+    <string name="common_google_play_services_notification_needs_update_title">ఒక అనువర్తనానికి Google Play సేవలు నవీకరించబడటం అవసరం.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$sకి Android వేర్ అనువర్తనాన్ని నవీకరించడం అవసరం.</string>
+    <string name="common_google_play_services_needs_enabling_title">ఒక అనువర్తనానికి Google Play సేవలు ప్రారంభించబడాలి.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">%1$s ద్వారా అభ్యర్థించబడింది</string>
+    <string name="common_google_play_services_install_title">Google Play సేవలను పొందండి</string>
+    <string name="common_google_play_services_install_text_phone">%1$s Google Play సేవలు లేకుండా అమలు కాదు, ఆ సేవలు మీ ఫోన్‌లో లేవు.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s Google Play సేవలు లేకుండా అమలు కాదు, ఆ సేవలు మీ టాబ్లెట్‌లో లేవు.</string>
+    <string name="common_google_play_services_install_button">Google Play సేవలను పొందండి</string>
+    <string name="common_google_play_services_enable_title">Google Play సేవలను ప్రారంభించు</string>
+    <string name="common_google_play_services_enable_text">మీరు Google Play సేవలను ప్రారంభిస్తే మినహా %1$s పని చేయదు.</string>
+    <string name="common_google_play_services_enable_button">Google Play సేవలను ప్రారంభించు</string>
+    <string name="common_google_play_services_update_title">Google Play సేవలను నవీకరించండి</string>
+    <string name="common_android_wear_update_title">Android Wearని నవీకరించండి</string>
+    <string name="common_google_play_services_update_text">మీరు Google Play సేవలను నవీకరిస్తే మినహా %1$s అమలు కాదు.</string>
+    <string name="common_android_wear_update_text">మీరు Android వేర్ అనువర్తనాన్ని నవీకరిస్తే మినహా %1$s అమలు కాదు.</string>
+    <string name="common_google_play_services_updating_title">Google Play సేవలు నవీకరించబడుతున్నాయి</string>
+    <string name="common_google_play_services_updating_text">%1$s Google Play సేవలు లేకుండా అమలు కాదు, ఆ సేవలు ప్రస్తుతం నవీకరించబడుతున్నాయి.</string>
+    <string name="common_google_play_services_network_error_title">నెట్‌వర్క్ లోపం</string>
+    <string name="common_google_play_services_network_error_text">Google Play సేవలకు కనెక్ట్ చేయడానికి డేటా కనెక్షన్ అవసరం.</string>
+    <string name="common_google_play_services_invalid_account_title">చెల్లని ఖాతా</string>
+    <string name="common_google_play_services_invalid_account_text">పేర్కొన్న ఖాతా ఈ పరికరంలో లేదు. దయచేసి వేరొక ఖాతాను ఎంచుకోండి.</string>
+    <string name="common_google_play_services_unknown_issue">Google Play సేవలతో తెలియని సమస్య.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play సేవలు</string>
+    <string name="common_google_play_services_unsupported_text">%1$s మీ పరికరంలో మద్దతు లేని Google Play సేవలపై ఆధారపడుతుంది. సహాయం కోసం తయారీదారుని సంప్రదించండి.</string>
+    <string name="common_google_play_services_update_button">నవీకరించు</string>
+    <string name="common_open_on_phone">ఫోన్‌లో తెరవండి</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$sకి ప్రస్తుతం అందుబాటులో లేని ఒకటి లేదా అంతకంటే ఎక్కువ Google Play సేవలు అవసరం. దయచేసి సహాయం కోసం డెవలపర్‌ను సంప్రదించండి.</string>
+    <string name="common_google_play_services_sign_in_failed_title">సైన్ ఇన్ విఫలమైంది</string>
+    <string name="common_google_play_services_sign_in_failed_text">పేర్కొన్న ఖాతాలో సైన్ ఇన్ చేయడంలో లోపం. దయచేసి వేరే ఖాతాను ఎంచుకోండి.</string>
+</resources>
