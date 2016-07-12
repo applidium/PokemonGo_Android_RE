@@ -9,7 +9,7 @@ import com.nianticproject.holoholo.sfida.constants.SfidaConstants.CertificationS
 import com.nianticproject.holoholo.sfida.constants.SfidaConstants.SfidaVersion;
 import com.nianticproject.holoholo.sfida.service.SfidaWatchDog.OnTimeoutListener;
 import java.util.UUID;
-import spacemadness.com.lunarconsole.C1401R;
+import com.nianticlabs.pokemongo.R;
 
 public class Certificator {
     private static final int DELAY_TIME = 1000;
@@ -131,7 +131,7 @@ public class Certificator {
             Log.d(Certificator.this.TAG, "Dummy Certification Challenge 2");
             if (Certificator.this.sfidaService.getIsReceivedWriteCallback()) {
                 switch (C07931.f35xe9d8fa5[SfidaConstants.SFIDA_VERSION.ordinal()]) {
-                    case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+                    case R.styleable.LoadingImageView_circleCrop /*2*/:
                         new Handler().postDelayed(new C07952(), 500);
                         return;
                     case SfidaMessage.ACTIVITY_BYTE_LENGTH /*3*/:
@@ -165,9 +165,9 @@ public class Certificator {
 
         private void onReceivedSecurityServiceNotify() {
             switch (C07931.f35xe9d8fa5[SfidaConstants.SFIDA_VERSION.ordinal()]) {
-                case C1401R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+                case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
                     Certificator.this.sfidaService.enableDeviceControlServiceNotify();
-                case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+                case R.styleable.LoadingImageView_circleCrop /*2*/:
                 case SfidaMessage.ACTIVITY_BYTE_LENGTH /*3*/:
                 case Place.TYPE_AQUARIUM /*4*/:
                     if (!Certificator.this.sfidaService.enableSecurityServiceNotify(new C07941())) {
@@ -187,9 +187,9 @@ public class Certificator {
         public void run() {
             Certificator.this.setCertificationState(this.executeCertificationState);
             switch (C07931.f34x9ecba9b7[this.executeCertificationState.ordinal()]) {
-                case C1401R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+                case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
                     onReceivedSecurityServiceNotify();
-                case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+                case R.styleable.LoadingImageView_circleCrop /*2*/:
                     onReceivedDummyCertificationChallenge1();
                 case SfidaMessage.ACTIVITY_BYTE_LENGTH /*3*/:
                     onReceivedDummyCertificationChallenge2();

@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.Locale;
 import org.json.JSONArray;
 import org.json.JSONException;
-import spacemadness.com.lunarconsole.BuildConfig;
+import com.nianticlabs.pokemongo.BuildConfig;
 
 public class StringUtility {
     public static boolean contains(String str, String[] strArr) {

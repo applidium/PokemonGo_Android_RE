@@ -14,8 +14,8 @@ import com.google.android.gms.location.places.Place;
 import com.nianticproject.holoholo.sfida.constants.BluetoothGattSupport;
 import com.upsight.android.internal.persistence.subscription.Subscriptions;
 import java.lang.reflect.Method;
-import spacemadness.com.lunarconsole.BuildConfig;
-import spacemadness.com.lunarconsole.C1401R;
+import com.nianticlabs.pokemongo.BuildConfig;
+import com.nianticlabs.pokemongo.R;
 
 public class SfidaUtils {
     private static final String TAG;
@@ -91,11 +91,11 @@ public class SfidaUtils {
 
     public static String getConnectionStateName(int i) {
         switch (i) {
-            case C1401R.styleable.AdsAttrs_adSize /*0*/:
+            case R.styleable.AdsAttrs_adSize /*0*/:
                 return "STATE_DISCONNECTED";
-            case C1401R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+            case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
                 return "STATE_CONNECTING";
-            case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+            case R.styleable.LoadingImageView_circleCrop /*2*/:
                 return "STATE_CONNECTED";
             case SfidaMessage.ACTIVITY_BYTE_LENGTH /*3*/:
                 return "STATE_DISCONNECTING";
@@ -106,9 +106,9 @@ public class SfidaUtils {
 
     public static String getGattStateName(int i) {
         switch (i) {
-            case C1401R.styleable.AdsAttrs_adSize /*0*/:
+            case R.styleable.AdsAttrs_adSize /*0*/:
                 return "GATT_SUCCESS";
-            case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+            case R.styleable.LoadingImageView_circleCrop /*2*/:
                 return "GATT_READ_NOT_PERMITTED";
             case SfidaMessage.ACTIVITY_BYTE_LENGTH /*3*/:
                 return "GATT_WRITE_NOT_PERMITTED";

@@ -26,7 +26,9 @@ import android.widget.LinearLayout.LayoutParams;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
-import spacemadness.com.lunarconsole.C1401R;
+
+import com.nianticlabs.pokemongo.R;
+
 import spacemadness.com.lunarconsole.core.Destroyable;
 import spacemadness.com.lunarconsole.debug.Log;
 import spacemadness.com.lunarconsole.debug.Tags;
@@ -93,7 +95,7 @@ public class ConsoleView extends LinearLayout implements Destroyable, LunarConso
         }
 
         /* renamed from: spacemadness.com.lunarconsole.console.ConsoleView.2.2 */
-        class C14152 implements OnClickListener {
+        class C14152 implements DialogInterface.OnClickListener {
             final /* synthetic */ ConsoleEntry val$entry;
             final /* synthetic */ String val$message;
             final /* synthetic */ String val$stackTrace;
@@ -123,17 +125,17 @@ public class ConsoleView extends LinearLayout implements Destroyable, LunarConso
             view.setBackgroundColor(ViewCompat.MEASURED_STATE_MASK);
             ThreadUtils.runOnUIThread(new C14141(view, entry, context), 200);
             Builder builder = new Builder(context);
-            View inflate = LayoutInflater.from(context).inflate(C1401R.layout.lunar_layout_log_details_dialog, null);
-            ImageView imageView = (ImageView) inflate.findViewById(C1401R.id.lunar_console_log_details_icon);
-            TextView textView = (TextView) inflate.findViewById(C1401R.id.lunar_console_log_details_message);
-            TextView textView2 = (TextView) inflate.findViewById(C1401R.id.lunar_console_log_details_stacktrace);
-            Object obj = entry.message;
-            Object optimize = entry.hasStackTrace() ? StackTrace.optimize(entry.stackTrace) : ConsoleView.this.getResources().getString(C1401R.string.lunar_console_log_details_dialog_no_stacktrace_warning);
+            View inflate = LayoutInflater.from(context).inflate(R.layout.lunar_layout_log_details_dialog, null);
+            ImageView imageView = (ImageView) inflate.findViewById(R.id.lunar_console_log_details_icon);
+            TextView textView = (TextView) inflate.findViewById(R.id.lunar_console_log_details_message);
+            TextView textView2 = (TextView) inflate.findViewById(R.id.lunar_console_log_details_stacktrace);
+            String obj = entry.message;
+            String optimize = entry.hasStackTrace() ? StackTrace.optimize(entry.stackTrace) : ConsoleView.this.getResources().getString(R.string.lunar_console_log_details_dialog_no_stacktrace_warning);
             textView.setText(obj);
             textView2.setText(optimize);
             imageView.setImageDrawable(entry.getIconDrawable(context));
             builder.setView(inflate);
-            builder.setPositiveButton(C1401R.string.lunar_console_log_details_dialog_button_copy_to_clipboard, new C14152(obj, entry, optimize));
+            builder.setPositiveButton(R.string.lunar_console_log_details_dialog_button_copy_to_clipboard, new C14152(obj, entry, optimize));
             builder.create().show();
         }
     }
@@ -230,10 +232,10 @@ public class ConsoleView extends LinearLayout implements Destroyable, LunarConso
         this.console.setConsoleListener(this);
         this.scrollLocked = ConsoleViewState.scrollLocked;
         setOnTouchListener(new C14131());
-        this.rootView = LayoutInflater.from(context).inflate(C1401R.layout.lunar_layout_console, this, false);
+        this.rootView = LayoutInflater.from(context).inflate(R.layout.lunar_layout_console, this, false);
         addView(this.rootView, new LayoutParams(-1, -1));
         this.recyclerViewAdapter = new ConsoleAdapter(console);
-        LinearLayout linearLayout = (LinearLayout) findExistingViewById(C1401R.id.lunar_console_recycler_view_container);
+        LinearLayout linearLayout = (LinearLayout) findExistingViewById(R.id.lunar_console_recycler_view_container);
         this.listView = new ListView(context);
         this.listView.setDivider(null);
         this.listView.setDividerHeight(0);
@@ -244,13 +246,13 @@ public class ConsoleView extends LinearLayout implements Destroyable, LunarConso
         this.listView.setOnTouchListener(new C14173());
         linearLayout.addView(this.listView, new LayoutParams(-1, -1));
         setupFilterTextEdit();
-        this.logButton = (LogTypeButton) findExistingViewById(C1401R.id.lunar_console_log_button);
-        this.warningButton = (LogTypeButton) findExistingViewById(C1401R.id.lunar_console_warning_button);
-        this.errorButton = (LogTypeButton) findExistingViewById(C1401R.id.lunar_console_error_button);
+        this.logButton = (LogTypeButton) findExistingViewById(R.id.lunar_console_log_button);
+        this.warningButton = (LogTypeButton) findExistingViewById(R.id.lunar_console_warning_button);
+        this.errorButton = (LogTypeButton) findExistingViewById(R.id.lunar_console_error_button);
         setupLogTypeButtons();
         setupOperationsButtons();
         setupFakeStatusBar();
-        this.overflowText = (TextView) findExistingViewById(C1401R.id.lunar_console_text_overflow);
+        this.overflowText = (TextView) findExistingViewById(R.id.lunar_console_text_overflow);
         reloadData();
     }
 
@@ -284,7 +286,7 @@ public class ConsoleView extends LinearLayout implements Destroyable, LunarConso
     }
 
     private <T extends View> T findExistingViewById(View view, int i) throws ClassCastException {
-        T findViewById = view.findViewById(i);
+        T findViewById = (T) view.findViewById(i);
         if (findViewById != null) {
             return findViewById;
         }
@@ -354,8 +356,8 @@ public class ConsoleView extends LinearLayout implements Destroyable, LunarConso
     }
 
     private void setupFakeStatusBar() {
-        CharSequence format = String.format(getResources().getString(C1401R.string.lunar_console_title_fake_status_bar), new Object[]{ConsolePlugin.getVersion()});
-        TextView textView = (TextView) findExistingViewById(C1401R.id.lunar_console_fake_status_bar);
+        CharSequence format = String.format(getResources().getString(R.string.lunar_console_title_fake_status_bar), new Object[]{ConsolePlugin.getVersion()});
+        TextView textView = (TextView) findExistingViewById(R.id.lunar_console_fake_status_bar);
         textView.setText(format);
         textView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -366,7 +368,7 @@ public class ConsoleView extends LinearLayout implements Destroyable, LunarConso
     }
 
     private EditText setupFilterTextEdit() {
-        EditText editText = (EditText) findExistingViewById(C1401R.id.lunar_console_text_edit_filter);
+        EditText editText = (EditText) findExistingViewById(R.id.lunar_console_text_edit_filter);
         Object filterText = this.console.entries().getFilterText();
         if (!StringUtils.IsNullOrEmpty(filterText)) {
             editText.setText(filterText);
@@ -391,20 +393,20 @@ public class ConsoleView extends LinearLayout implements Destroyable, LunarConso
     }
 
     private void setupOperationsButtons() {
-        setOnClickListener(C1401R.id.lunar_console_button_clear, new C14217());
-        this.scrollLockButton = (ToggleImageButton) this.rootView.findViewById(C1401R.id.lunar_console_button_lock);
+        setOnClickListener(R.id.lunar_console_button_clear, new C14217());
+        this.scrollLockButton = (ToggleImageButton) this.rootView.findViewById(R.id.lunar_console_button_lock);
         Resources resources = getContext().getResources();
-        this.scrollLockButton.setOnDrawable(resources.getDrawable(C1401R.drawable.lunar_console_icon_button_lock));
-        this.scrollLockButton.setOffDrawable(resources.getDrawable(C1401R.drawable.lunar_console_icon_button_unlock));
+        this.scrollLockButton.setOnDrawable(resources.getDrawable(R.drawable.lunar_console_icon_button_lock));
+        this.scrollLockButton.setOffDrawable(resources.getDrawable(R.drawable.lunar_console_icon_button_unlock));
         this.scrollLockButton.setOn(this.scrollLocked);
         this.scrollLockButton.setOnStateChangeListener(new C14228());
-        setOnClickListener(C1401R.id.lunar_console_button_copy, new C14239());
-        setOnClickListener(C1401R.id.lunar_console_button_email, new View.OnClickListener() {
+        setOnClickListener(R.id.lunar_console_button_copy, new C14239());
+        setOnClickListener(R.id.lunar_console_button_email, new View.OnClickListener() {
             public void onClick(View view) {
                 ConsoleView.this.sendConsoleOutputByEmail();
             }
         });
-        setOnClickListener(C1401R.id.lunar_console_button_close, new View.OnClickListener() {
+        setOnClickListener(R.id.lunar_console_button_close, new View.OnClickListener() {
             public void onClick(View view) {
                 ConsoleView.this.notifyClose();
             }
@@ -427,7 +429,7 @@ public class ConsoleView extends LinearLayout implements Destroyable, LunarConso
     private void updateOverflowText() {
         if (this.console.trimmedCount() > 0) {
             this.overflowText.setVisibility(0);
-            this.overflowText.setText(getResources().getString(C1401R.string.lunar_console_overflow_warning_text, new Object[]{Integer.valueOf(r0)}));
+            this.overflowText.setText(getResources().getString(R.string.lunar_console_overflow_warning_text, new Object[]{Integer.valueOf(r0)}));
             return;
         }
         this.overflowText.setVisibility(8);

@@ -26,8 +26,8 @@ import com.nianticproject.holoholo.sfida.service.SfidaService;
 import com.nianticproject.holoholo.sfida.service.SfidaService.LocalBinder;
 import com.unity3d.player.UnityPlayer;
 import java.util.UUID;
-import spacemadness.com.lunarconsole.BuildConfig;
-import spacemadness.com.lunarconsole.C1401R;
+import com.nianticlabs.pokemongo.BuildConfig;
+import com.nianticlabs.pokemongo.R;
 
 public class SfidaUnityPlugin implements UnityInterface {
     private static final String TAG;
@@ -310,13 +310,13 @@ public class SfidaUnityPlugin implements UnityInterface {
                 break;
         }
         switch (z) {
-            case C1401R.styleable.AdsAttrs_adSize /*0*/:
+            case R.styleable.AdsAttrs_adSize /*0*/:
                 this.isSfidaConnected = true;
-            case C1401R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+            case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
                 this.isSfidaConnected = false;
                 Toast.makeText(getActivity(), "PokemonGoPlus disconnected", 1).show();
                 UnityPlayer.UnitySendMessage(UNITY_GAME_OBJECT, UNITY_METHOD_NOTIFY_DISCONNECTED, BuildConfig.FLAVOR);
-            case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+            case R.styleable.LoadingImageView_circleCrop /*2*/:
                 Toast.makeText(getActivity(), "Pok\u00e9mon GO Plus connected.", 0).show();
                 UnityPlayer.UnitySendMessage(UNITY_GAME_OBJECT, UNITY_METHOD_NOTIFY_CONNECTED, BuildConfig.FLAVOR);
             case SfidaMessage.ACTIVITY_BYTE_LENGTH /*3*/:
@@ -444,11 +444,11 @@ public class SfidaUnityPlugin implements UnityInterface {
         }
         this.sfidaService.setOnClickSfidaListener(null);
         switch (Integer.valueOf(str).intValue()) {
-            case C1401R.styleable.AdsAttrs_adSize /*0*/:
+            case R.styleable.AdsAttrs_adSize /*0*/:
                 return true;
-            case C1401R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+            case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
                 return notifyPokeballBrokenShakeOnce();
-            case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+            case R.styleable.LoadingImageView_circleCrop /*2*/:
                 return notifyPokeballBrokenShakeTwice();
             case SfidaMessage.ACTIVITY_BYTE_LENGTH /*3*/:
                 return notifyPokeballBrokenOneShakeThree();
@@ -474,10 +474,10 @@ public class SfidaUnityPlugin implements UnityInterface {
         byte[] dowserProximity1;
         this.sfidaService.setOnClickSfidaListener(null);
         switch (Integer.valueOf(str).intValue()) {
-            case C1401R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+            case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
                 dowserProximity1 = SfidaMessage.getDowserProximity1();
                 break;
-            case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+            case R.styleable.LoadingImageView_circleCrop /*2*/:
                 dowserProximity1 = SfidaMessage.getDowserProximity2();
                 break;
             case SfidaMessage.ACTIVITY_BYTE_LENGTH /*3*/:

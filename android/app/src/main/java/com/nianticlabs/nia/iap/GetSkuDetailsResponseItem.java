@@ -4,7 +4,7 @@ import android.util.Log;
 import com.voxelbusters.nativeplugins.defines.Keys;
 import com.voxelbusters.nativeplugins.defines.Keys.Billing;
 import org.json.JSONObject;
-import spacemadness.com.lunarconsole.BuildConfig;
+import com.nianticlabs.pokemongo.BuildConfig;
 
 class GetSkuDetailsResponseItem {
     private static final String TAG = "SkuDetailsResponseItem";

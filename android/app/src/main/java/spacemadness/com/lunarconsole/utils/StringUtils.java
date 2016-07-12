@@ -2,7 +2,7 @@ package spacemadness.com.lunarconsole.utils;
 
 import android.util.Log;
 import java.util.List;
-import spacemadness.com.lunarconsole.BuildConfig;
+import com.nianticlabs.pokemongo.BuildConfig;
 
 public class StringUtils {
     public static boolean IsNullOrEmpty(String str) {

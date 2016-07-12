@@ -11,8 +11,9 @@ import com.google.android.gms.auth.UserRecoverableAuthException;
 import com.google.android.gms.common.AccountPicker;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.nianticlabs.nia.account.NianticAccountManager.Status;
+import com.nianticlabs.pokemongo.BuildConfig;
+
 import java.lang.ref.WeakReference;
-import spacemadness.com.lunarconsole.BuildConfig;
 
 public class AccountsActivity extends Activity {
     static final String AUTH_TOKEN_SCOPE_PREFIX = "audience:server:client_id:";

@@ -26,7 +26,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.commons.io.IOUtils;
-import spacemadness.com.lunarconsole.BuildConfig;
+import com.nianticlabs.pokemongo.BuildConfig;
 
 public class SharingActivity extends Activity {
     final int SEND_MAIL_REQUEST_CODE;

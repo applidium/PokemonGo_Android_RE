@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import spacemadness.com.lunarconsole.C1401R;
+import com.nianticlabs.pokemongo.R;
 
 public class ConsoleAdapter extends BaseAdapter {
     private DataSource dataSource;
@@ -71,7 +71,7 @@ public class ConsoleAdapter extends BaseAdapter {
         if (view != null) {
             viewHolder = (ViewHolder) view.getTag();
         } else {
-            view = LayoutInflater.from(viewGroup.getContext()).inflate(C1401R.layout.lunar_layout_console_log_entry, viewGroup, false);
+            view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.lunar_layout_console_log_entry, viewGroup, false);
             viewHolder = new spacemadness.com.lunarconsole.console.ConsoleEntry.ViewHolder(view);
             view.setTag(viewHolder);
         }

@@ -11,7 +11,8 @@ import android.view.View.OnTouchListener;
 import android.widget.FrameLayout;
 import android.widget.FrameLayout.LayoutParams;
 import android.widget.TextView;
-import spacemadness.com.lunarconsole.C1401R;
+import com.nianticlabs.pokemongo.R;
+
 import spacemadness.com.lunarconsole.core.Destroyable;
 import spacemadness.com.lunarconsole.debug.Log;
 import spacemadness.com.lunarconsole.debug.Tags;
@@ -79,7 +80,7 @@ public class WarningView extends FrameLayout implements Destroyable {
     }
 
     private void init(Context context) {
-        View inflate = LayoutInflater.from(context).inflate(C1401R.layout.lunar_layout_warning, null, false);
+        View inflate = LayoutInflater.from(context).inflate(R.layout.lunar_layout_warning, null, false);
         setupUI(inflate);
         addView(inflate, new LayoutParams(-1, -2, 81));
     }
@@ -109,10 +110,10 @@ public class WarningView extends FrameLayout implements Destroyable {
     }
 
     private void setupUI(View view) {
-        this.messageText = (TextView) view.findViewById(C1401R.id.lunar_console_text_warning_message);
+        this.messageText = (TextView) view.findViewById(R.id.lunar_console_text_warning_message);
         view.setOnTouchListener(new C14241());
-        setOnClickListener(view, C1401R.id.lunar_console_button_dismiss, new C14252());
-        setOnClickListener(view, C1401R.id.lunar_console_button_details, new C14263());
+        setOnClickListener(view, R.id.lunar_console_button_dismiss, new C14252());
+        setOnClickListener(view, R.id.lunar_console_button_details, new C14263());
     }
 
     public void destroy() {

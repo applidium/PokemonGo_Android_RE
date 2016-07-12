@@ -14,7 +14,7 @@ import com.google.android.gms.location.places.Place;
 import com.nianticproject.holoholo.sfida.constants.SfidaConstants;
 import com.nianticproject.holoholo.sfida.constants.SfidaConstants.SfidaVersion;
 import java.util.List;
-import spacemadness.com.lunarconsole.C1401R;
+import com.nianticlabs.pokemongo.R;
 
 @TargetApi(18)
 public class SfidaFinderFragment extends Fragment {
@@ -157,10 +157,10 @@ public class SfidaFinderFragment extends Fragment {
     public void onAttach(Activity activity) {
         super.onAttach(activity);
         switch (C07912.f33xe9d8fa5[SfidaConstants.SFIDA_VERSION.ordinal()]) {
-            case C1401R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+            case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
                 BLE_NAME = "SFIDA";
                 break;
-            case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+            case R.styleable.LoadingImageView_circleCrop /*2*/:
                 BLE_NAME = "EBISU";
                 break;
             case SfidaMessage.ACTIVITY_BYTE_LENGTH /*3*/:
@@ -202,9 +202,9 @@ public class SfidaFinderFragment extends Fragment {
     public void setSfidaVersion(SfidaVersion sfidaVersion) {
         SfidaConstants.SFIDA_VERSION = sfidaVersion;
         switch (C07912.f33xe9d8fa5[sfidaVersion.ordinal()]) {
-            case C1401R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+            case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
                 BLE_NAME = "SFIDA";
-            case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+            case R.styleable.LoadingImageView_circleCrop /*2*/:
                 BLE_NAME = "EBISU";
             case SfidaMessage.ACTIVITY_BYTE_LENGTH /*3*/:
                 BLE_NAME = "EBISU";

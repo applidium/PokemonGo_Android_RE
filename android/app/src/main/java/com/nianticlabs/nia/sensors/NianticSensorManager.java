@@ -13,7 +13,7 @@ import com.nianticlabs.nia.contextservice.ContextService;
 import com.nianticlabs.nia.contextservice.ServiceStatus;
 import com.nianticproject.holoholo.sfida.SfidaMessage;
 import com.nianticproject.holoholo.sfida.constants.BluetoothGattSupport;
-import spacemadness.com.lunarconsole.C1401R;
+import com.nianticlabs.pokemongo.R;
 
 public class NianticSensorManager extends ContextService implements SensorEventListener {
     private static final float ANGLE_CHANGE_THRESHOLD_DEGREES = 1.0f;
@@ -159,11 +159,11 @@ public class NianticSensorManager extends ContextService implements SensorEventL
         int i = BluetoothGattSupport.GATT_INTERNAL_ERROR;
         int i2 = 2;
         switch (this.display.getRotation()) {
-            case C1401R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+            case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
                 i = 2;
                 i2 = BluetoothGattSupport.GATT_INTERNAL_ERROR;
                 break;
-            case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+            case R.styleable.LoadingImageView_circleCrop /*2*/:
                 i2 = TransportMediator.KEYCODE_MEDIA_RECORD;
                 break;
             case SfidaMessage.ACTIVITY_BYTE_LENGTH /*3*/:
@@ -229,7 +229,7 @@ public class NianticSensorManager extends ContextService implements SensorEventL
         this.status = ServiceStatus.RUNNING;
         long currentTimeMillis = System.currentTimeMillis();
         switch (sensorEvent.sensor.getType()) {
-            case C1401R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+            case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
                 this.accelerometerReadingMs = currentTimeMillis;
                 System.arraycopy(sensorEvent.values, 0, this.accelerometerData, 0, this.accelerometerData.length);
                 if (updateOrientationFromRaw(currentTimeMillis)) {
@@ -237,7 +237,7 @@ public class NianticSensorManager extends ContextService implements SensorEventL
                     break;
                 }
                 break;
-            case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+            case R.styleable.LoadingImageView_circleCrop /*2*/:
                 this.magnetometerReadingMs = currentTimeMillis;
                 System.arraycopy(sensorEvent.values, 0, this.magneticData, 0, this.magneticData.length);
                 if (updateOrientationFromRaw(currentTimeMillis)) {

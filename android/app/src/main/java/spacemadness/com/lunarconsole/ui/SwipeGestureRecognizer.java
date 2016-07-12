@@ -3,7 +3,7 @@ package spacemadness.com.lunarconsole.ui;
 import android.support.v4.view.MotionEventCompat;
 import android.view.MotionEvent;
 import com.google.android.gms.location.places.Place;
-import spacemadness.com.lunarconsole.C1401R;
+import com.nianticlabs.pokemongo.R;
 
 public class SwipeGestureRecognizer extends GestureRecognizer<SwipeGestureRecognizer> {
     private final SwipeDirection direction;
@@ -34,7 +34,7 @@ public class SwipeGestureRecognizer extends GestureRecognizer<SwipeGestureRecogn
 
     public boolean onTouchEvent(MotionEvent motionEvent) {
         switch (motionEvent.getAction() & MotionEventCompat.ACTION_MASK) {
-            case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+            case R.styleable.LoadingImageView_circleCrop /*2*/:
                 if (this.swiping) {
                     this.endX = motionEvent.getX(0);
                     this.endY = motionEvent.getY(0);

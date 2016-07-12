@@ -11,7 +11,7 @@ import com.google.android.gms.location.places.Place;
 import com.nianticproject.holoholo.sfida.SfidaUtils;
 import com.nianticproject.holoholo.sfida.constants.BluetoothGattSupport;
 import org.apache.commons.io.IOUtils;
-import spacemadness.com.lunarconsole.C1401R;
+import com.nianticlabs.pokemongo.R;
 
 @TargetApi(18)
 public class SfidaGattCallback extends BluetoothGattCallback {
@@ -49,10 +49,10 @@ public class SfidaGattCallback extends BluetoothGattCallback {
     public void onConnectionStateChange(BluetoothGatt bluetoothGatt, int i, int i2) {
         Log.d(TAG, "[BLE] onConnectionStateChange() oldState : " + SfidaUtils.getConnectionStateName(i) + " \u2192 newState : " + SfidaUtils.getConnectionStateName(i2));
         switch (i2) {
-            case C1401R.styleable.AdsAttrs_adSize /*0*/:
+            case R.styleable.AdsAttrs_adSize /*0*/:
                 Log.d(TAG, "[BLE] Disconnected from GATT server.");
                 this.sfidaService.onDisconnectedWithGattServer();
-            case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+            case R.styleable.LoadingImageView_circleCrop /*2*/:
                 Log.d(TAG, "[BLE] Connected with GATT server.");
                 this.sfidaService.onConnectedWithGattServer(bluetoothGatt);
             case Place.TYPE_CAR_REPAIR /*19*/:
@@ -83,7 +83,7 @@ public class SfidaGattCallback extends BluetoothGattCallback {
     public void onServicesDiscovered(BluetoothGatt bluetoothGatt, int i) {
         Log.d(TAG, "[BLE] onServicesDiscovered() : " + SfidaUtils.getGattStateName(i));
         switch (i) {
-            case C1401R.styleable.AdsAttrs_adSize /*0*/:
+            case R.styleable.AdsAttrs_adSize /*0*/:
                 this.sfidaService.onServiceDiscovered();
             default:
                 Log.e(TAG, "[BLE] onServicesDiscovered received error: " + i);

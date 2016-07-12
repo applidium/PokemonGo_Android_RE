@@ -4,7 +4,7 @@ import com.voxelbusters.nativeplugins.defines.Keys;
 import com.voxelbusters.nativeplugins.defines.Keys.AddressBook;
 import java.util.ArrayList;
 import java.util.HashMap;
-import spacemadness.com.lunarconsole.BuildConfig;
+import com.nianticlabs.pokemongo.BuildConfig;
 
 public class ContactDetails {
     String displayName;

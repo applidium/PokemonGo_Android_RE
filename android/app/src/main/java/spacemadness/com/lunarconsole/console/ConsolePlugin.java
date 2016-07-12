@@ -15,7 +15,8 @@ import android.widget.FrameLayout.LayoutParams;
 import com.unity3d.player.UnityPlayer;
 import java.lang.ref.WeakReference;
 import java.util.List;
-import spacemadness.com.lunarconsole.C1401R;
+import com.nianticlabs.pokemongo.R;
+
 import spacemadness.com.lunarconsole.console.Console.Options;
 import spacemadness.com.lunarconsole.console.ConsoleEntryDispatcher.OnDispatchListener;
 import spacemadness.com.lunarconsole.console.ConsoleView.Listener;
@@ -227,7 +228,7 @@ public class ConsolePlugin implements Destroyable, Listener, WarningView.Listene
             Log.m860d(Tags.CONSOLE, "Hide console", new Object[0]);
             Context activity = getActivity();
             if (activity != null) {
-                Animation loadAnimation = AnimationUtils.loadAnimation(activity, C1401R.anim.lunar_console_slide_out_top);
+                Animation loadAnimation = AnimationUtils.loadAnimation(activity, R.anim.lunar_console_slide_out_top);
                 loadAnimation.setAnimationListener(new C14118());
                 this.consoleView.startAnimation(loadAnimation);
             } else {
@@ -344,7 +345,7 @@ public class ConsolePlugin implements Destroyable, Listener, WarningView.Listene
                 this.consoleView.setListener(this);
                 this.consoleView.requestFocus();
                 rootLayout.addView(this.consoleView, new LayoutParams(-1, -1));
-                this.consoleView.startAnimation(AnimationUtils.loadAnimation(activity, C1401R.anim.lunar_console_slide_in_top));
+                this.consoleView.startAnimation(AnimationUtils.loadAnimation(activity, R.anim.lunar_console_slide_in_top));
                 disableGestureRecognition();
                 return true;
             }

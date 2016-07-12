@@ -17,7 +17,7 @@ import com.nianticlabs.nia.contextservice.GoogleApiManager.Listener;
 import com.nianticlabs.nia.contextservice.ServiceStatus;
 import java.lang.ref.WeakReference;
 import java.util.concurrent.TimeUnit;
-import spacemadness.com.lunarconsole.C1401R;
+import com.nianticlabs.pokemongo.R;
 
 public class NianticActivityManager extends ContextService {
     private static final long ACTIVITY_DETECTION_INTERVAL_MS = 5000;
@@ -45,7 +45,7 @@ public class NianticActivityManager extends ContextService {
         public void onConnectionFailed(ConnectionResult connectionResult) {
             NianticActivityManager.this.googleApiState = GoogleApiState.STOPPED;
             switch (connectionResult.getErrorCode()) {
-                case C1401R.styleable.AdsAttrs_adSize /*0*/:
+                case R.styleable.AdsAttrs_adSize /*0*/:
                     NianticActivityManager.this.status = ServiceStatus.INITIALIZED;
                     break;
                 case Place.TYPE_CAR_REPAIR /*19*/:

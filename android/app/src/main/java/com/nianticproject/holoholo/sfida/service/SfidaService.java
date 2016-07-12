@@ -34,7 +34,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 import org.apache.commons.io.IOUtils;
-import spacemadness.com.lunarconsole.C1401R;
+import com.nianticlabs.pokemongo.R;
 
 @TargetApi(18)
 public class SfidaService extends Service {
@@ -484,11 +484,11 @@ public class SfidaService extends Service {
 
     public void onServiceDiscovered() {
         switch (C07982.f36x11f28293[this.connectionState.ordinal()]) {
-            case C1401R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+            case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
                 setConnectionState(ConnectionState.CERTIFICATION);
                 startCertificateSequence();
                 sendBroadcast(SfidaConstants.ACTION_GATT_SERVICES_DISCOVERED);
-            case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+            case R.styleable.LoadingImageView_circleCrop /*2*/:
                 setConnectionState(ConnectionState.NO_CONNECTION);
                 disconnectBluetooth();
             default:

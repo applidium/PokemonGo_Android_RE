@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import org.json.JSONArray;
-import spacemadness.com.lunarconsole.BuildConfig;
+import com.nianticlabs.pokemongo.BuildConfig;
 
 public class SharedPreferencesUtility {
     public static JSONArray getJsonArray(String str, int i, Context context, String str2) {

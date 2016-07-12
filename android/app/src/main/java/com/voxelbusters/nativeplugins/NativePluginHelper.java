@@ -11,7 +11,7 @@ import com.voxelbusters.nativeplugins.utilities.Debug;
 import com.voxelbusters.nativeplugins.utilities.StringUtility;
 import java.util.ArrayList;
 import java.util.HashMap;
-import spacemadness.com.lunarconsole.BuildConfig;
+import com.nianticlabs.pokemongo.BuildConfig;
 
 public class NativePluginHelper {
 

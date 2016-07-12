@@ -12,7 +12,7 @@ import com.voxelbusters.nativeplugins.defines.Keys;
 import com.voxelbusters.nativeplugins.defines.Keys.Sharing;
 import com.voxelbusters.nativeplugins.utilities.FileUtility;
 import com.voxelbusters.nativeplugins.utilities.StringUtility;
-import spacemadness.com.lunarconsole.BuildConfig;
+import com.nianticlabs.pokemongo.BuildConfig;
 
 public class SharingHandler {
     private static SharingHandler INSTANCE;

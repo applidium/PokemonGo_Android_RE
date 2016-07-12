@@ -1,6 +1,6 @@
 package com.voxelbusters.nativeplugins.defines;
 
-import spacemadness.com.lunarconsole.BuildConfig;
+import com.nianticlabs.pokemongo.BuildConfig;
 
 public class CommonDefines {
     public static final String ADDRESS_BOOK_TAG = "NativePlugins.AddressBook";

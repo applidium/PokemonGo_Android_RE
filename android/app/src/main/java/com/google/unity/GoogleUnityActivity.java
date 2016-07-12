@@ -21,8 +21,8 @@ import android.view.View.OnSystemUiVisibilityChangeListener;
 import android.view.View.OnTouchListener;
 import android.widget.PopupWindow;
 import com.google.android.gms.location.places.Place;
+import com.nianticlabs.pokemongo.R;
 import com.unity3d.player.UnityPlayer;
-import spacemadness.com.lunarconsole.C1401R;
 
 public class GoogleUnityActivity extends Activity {
     private static final int NAVIGATION_BAR_TIMEOUT_MS = 2000;
@@ -61,9 +61,9 @@ public class GoogleUnityActivity extends Activity {
 
         public boolean onKey(View view, int i, KeyEvent keyEvent) {
             switch (keyEvent.getAction()) {
-                case C1401R.styleable.AdsAttrs_adSize /*0*/:
+                case R.styleable.AdsAttrs_adSize /*0*/:
                     return GoogleUnityActivity.this.onKeyDown(i, keyEvent);
-                case C1401R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+                case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
                     return GoogleUnityActivity.this.onKeyUp(i, keyEvent);
                 default:
                     return GoogleUnityActivity.this.injectUnityEvent(keyEvent);

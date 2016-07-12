@@ -10,8 +10,8 @@ import com.google.android.gms.common.api.GoogleApiClient.Builder;
 import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
 import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener;
 import com.google.android.gms.location.places.Place;
+import com.nianticlabs.pokemongo.R;
 import com.nianticproject.holoholo.sfida.SfidaMessage;
-import spacemadness.com.lunarconsole.C1401R;
 
 public class GoogleApiManager {
     private static final boolean ENABLE_VERBOSE_LOGS = true;
@@ -41,10 +41,10 @@ public class GoogleApiManager {
             if (Log.isLoggable(GoogleApiManager.TAG, 3)) {
                 StringBuilder stringBuilder = new StringBuilder("Connection to Google Play Services suspended. ");
                 switch (i) {
-                    case C1401R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+                    case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
                         stringBuilder.append("CAUSE_SERVICE_DISCONNECTED");
                         break;
-                    case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+                    case R.styleable.LoadingImageView_circleCrop /*2*/:
                         stringBuilder.append("CAUSE_NETWORK_LOST");
                         break;
                     default:
@@ -158,7 +158,7 @@ public class GoogleApiManager {
                 this.listener.onConnected();
             }
             switch (C07613.f31xbcf19983[this.appState.ordinal()]) {
-                case C1401R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+                case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
                     requestStateStopping();
                 default:
             }
@@ -169,8 +169,8 @@ public class GoogleApiManager {
         Log.v(TAG, "requestStateStarting " + this.appState.name() + MinimalPrettyPrinter.DEFAULT_ROOT_VALUE_SEPARATOR + this.state.name());
         if (this.appState != AppState.STOP) {
             switch (C07613.f32xc077f2de[this.state.ordinal()]) {
-                case C1401R.styleable.LoadingImageView_imageAspectRatio /*1*/:
-                case C1401R.styleable.LoadingImageView_circleCrop /*2*/:
+                case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+                case R.styleable.LoadingImageView_circleCrop /*2*/:
                 case SfidaMessage.ACTIVITY_BYTE_LENGTH /*3*/:
                     Log.v(TAG, "State " + this.state.name() + " -> STARTING");
                     this.state = State.STARTING;
