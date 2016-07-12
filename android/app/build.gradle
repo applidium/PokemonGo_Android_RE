@@ -33,4 +33,5 @@ dependencies {
     compile 'io.reactivex:rxandroid:1.2.1'
     compile 'io.reactivex:rxjava:1.1.6'
     compile 'com.crittercism:crittercism-android-agent:5.5.5'
+    compile 'com.google.android.gms:play-services:9.2.0'
 }
