@@ -266,7 +266,7 @@ public class ConsoleView extends LinearLayout implements Destroyable, LunarConso
 
     private boolean copyToClipboard(String str) {
         try {
-            ((ClipboardManager) getContext().getSystemService("clipboard")).setText(str);
+            ((ClipboardManager) getContext().getSystemService(Context.CLIPBOARD_SERVICE)).setText(str);
             UIUtils.showToast(getContext(), "Copied to clipboard");
             return true;
         } catch (Throwable e) {
@@ -295,7 +295,7 @@ public class ConsoleView extends LinearLayout implements Destroyable, LunarConso
 
     private void hideSoftKeyboard() {
         this.softKeyboardVisible = false;
-        ((InputMethodManager) getContext().getSystemService("input_method")).hideSoftInputFromWindow(getWindowToken(), 0);
+        ((InputMethodManager) getContext().getSystemService(Context.INPUT_METHOD_SERVICE)).hideSoftInputFromWindow(getWindowToken(), 0);
     }
 
     private void notifyClose() {
@@ -428,11 +428,11 @@ public class ConsoleView extends LinearLayout implements Destroyable, LunarConso
 
     private void updateOverflowText() {
         if (this.console.trimmedCount() > 0) {
-            this.overflowText.setVisibility(0);
+            this.overflowText.setVisibility(View.VISIBLE);
             this.overflowText.setText(getResources().getString(R.string.lunar_console_overflow_warning_text, new Object[]{Integer.valueOf(r0)}));
             return;
         }
-        this.overflowText.setVisibility(8);
+        this.overflowText.setVisibility(View.GONE);
     }
 
     public void destroy() {

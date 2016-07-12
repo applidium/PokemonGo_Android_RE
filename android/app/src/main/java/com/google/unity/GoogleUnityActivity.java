@@ -187,7 +187,7 @@ public class GoogleUnityActivity extends Activity {
         intent.setClassName(str, str2);
         if (strArr != null) {
             for (String split : strArr) {
-                String[] split2 = split.split(UpsightEndpoint.SIGNED_MESSAGE_SEPARATOR);
+                String[] split2 = split.split(":");
                 if (split2.length == 2) {
                     intent.putExtra(split2[0], split2[1]);
                 }
