@@ -11,11 +11,13 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
+import android.support.v4.os.EnvironmentCompat;
+
 import com.android.vending.billing.IInAppBillingService;
 import com.android.vending.billing.IInAppBillingService.Stub;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.nianticlabs.nia.contextservice.ContextService;
-import com.nianticlabs.nia.iap.InAppBillingProvider.Delegate;
+
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -268,78 +270,61 @@ public class GoogleInAppBillingProvider implements InAppBillingProvider {
             this.billingService = GoogleInAppBillingProvider.this.billingService;
         }
 
-        /* JADX WARNING: inconsistent code. */
-        /* Code decompiled incorrectly, please refer to instructions dump. */
-        protected android.os.Bundle doInBackground(java.lang.Void... r9) {
-            /*
-            r8 = this;
-            r1 = 0;
-            r0 = r1;
-            r2 = r1;
-            r3 = r1;
-        L_0x0004:
-            r4 = r8.billingService;	 Catch:{ RemoteException -> 0x005f }
-            r5 = 3;
-            r6 = com.nianticlabs.nia.iap.GoogleInAppBillingProvider.this;	 Catch:{ RemoteException -> 0x005f }
-            r6 = r6.packageName;	 Catch:{ RemoteException -> 0x005f }
-            r7 = "inapp";
-            r5 = r4.getPurchases(r5, r6, r7, r0);	 Catch:{ RemoteException -> 0x005f }
-            r6 = com.nianticlabs.nia.iap.GoogleInAppBillingProvider.getResponseCodeFromBundle(r5);	 Catch:{ RemoteException -> 0x005f }
-            r0 = "INAPP_PURCHASE_DATA_LIST";
-            r0 = r5.getStringArrayList(r0);	 Catch:{ RemoteException -> 0x005f }
-            r4 = "INAPP_DATA_SIGNATURE_LIST";
-            r4 = r5.getStringArrayList(r4);	 Catch:{ RemoteException -> 0x005f }
-            r7 = 5;
-            if (r6 != r7) goto L_0x0029;
-        L_0x0026:
-            if (r2 != 0) goto L_0x0061;
-        L_0x0028:
-            return r1;
-        L_0x0029:
-            if (r6 != 0) goto L_0x0026;
-        L_0x002b:
-            r6 = "INAPP_PURCHASE_DATA_LIST";
-            r6 = r5.containsKey(r6);	 Catch:{ RemoteException -> 0x005f }
-            if (r6 == 0) goto L_0x0026;
-        L_0x0033:
-            r6 = "INAPP_DATA_SIGNATURE_LIST";
-            r6 = r5.containsKey(r6);	 Catch:{ RemoteException -> 0x005f }
-            if (r6 == 0) goto L_0x0026;
-        L_0x003b:
-            r6 = r0.size();	 Catch:{ RemoteException -> 0x005f }
-            r7 = r4.size();	 Catch:{ RemoteException -> 0x005f }
-            if (r6 != r7) goto L_0x0026;
-        L_0x0045:
-            if (r2 != 0) goto L_0x0058;
-        L_0x0047:
-            r2 = r0;
-            r3 = r4;
-        L_0x0049:
-            r0 = "INAPP_CONTINUATION_TOKEN";
-            r0 = r5.getString(r0);	 Catch:{ RemoteException -> 0x005f }
-            if (r0 == 0) goto L_0x0026;
-        L_0x0051:
-            r4 = r0.length();	 Catch:{ RemoteException -> 0x005f }
-            if (r4 != 0) goto L_0x0004;
-        L_0x0057:
-            goto L_0x0026;
-        L_0x0058:
-            r2.addAll(r0);	 Catch:{ RemoteException -> 0x005f }
-            r3.addAll(r4);	 Catch:{ RemoteException -> 0x005f }
-            goto L_0x0049;
-        L_0x005f:
-            r0 = move-exception;
-            goto L_0x0026;
-        L_0x0061:
-            r1 = new android.os.Bundle;
-            r1.<init>();
-            r0 = "INAPP_PURCHASE_DATA_LIST";
-            r1.putStringArrayList(r0, r2);
-            r0 = "INAPP_DATA_SIGNATURE_LIST";
-            r1.putStringArrayList(r0, r3);
-            goto L_0x0028;
-            */
-            throw new UnsupportedOperationException("Method not decompiled: com.nianticlabs.nia.iap.GoogleInAppBillingProvider.ProcessPurchasedItemsTask.doInBackground(java.lang.Void[]):android.os.Bundle");
+        protected Bundle doInBackground(final Void... array) {
+            ArrayList<String> list = null;
+            ArrayList<String> list2 = null;
+            String s = null;
+            Label_0089_Outer:
+            while (true) {
+                ArrayList<String> list5;
+                ArrayList<String> list6;
+                while (true) {
+                    try {
+                        final Bundle purchases = this.billingService.getPurchases(3, GoogleInAppBillingProvider.this.packageName, "inapp", s);
+                        final int responseCode = getResponseCodeFromBundle(purchases);
+                        ArrayList<String> stringArrayList = purchases.getStringArrayList("INAPP_PURCHASE_DATA_LIST");
+                        ArrayList<String> stringArrayList2 = purchases.getStringArrayList("INAPP_DATA_SIGNATURE_LIST");
+
+                        list5 = list2;
+                        list6 = list;
+                        if (responseCode != 5) {
+                            if (responseCode == 0
+                                && purchases.containsKey("INAPP_PURCHASE_DATA_LIST")
+                                && purchases.containsKey("INAPP_DATA_SIGNATURE_LIST")
+                                && stringArrayList.size() == stringArrayList2.size()
+                                ) {
+                                if (list != null) {
+                                    list.addAll(stringArrayList);
+                                    list2.addAll(stringArrayList2);
+                                    stringArrayList = list;
+                                    stringArrayList2 = list2;
+                                }
+                                String string = purchases.getString("INAPP_CONTINUATION_TOKEN");
+                                list6 = stringArrayList;
+                                list5 = stringArrayList2;
+                                if (string != null) {
+                                    list = stringArrayList;
+                                    list2 = stringArrayList2;
+                                    s = string;
+                                    if (string.length() != 0) {
+                                        continue Label_0089_Outer;
+                                    }
+                                }
+                            }
+                        }
+                        if (list6 == null) {
+                            return null;
+                        }
+                    } catch (RemoteException ex) {
+                        continue;
+                    }
+                    break;
+                }
+                final Bundle bundle = new Bundle();
+                bundle.putStringArrayList("INAPP_PURCHASE_DATA_LIST", list6);
+                bundle.putStringArrayList("INAPP_DATA_SIGNATURE_LIST", list5);
+                return bundle;
+            }
         }
 
         protected void onPostExecute(Bundle bundle) {
@@ -476,82 +461,43 @@ public class GoogleInAppBillingProvider implements InAppBillingProvider {
         }
     }
 
-    /* JADX WARNING: inconsistent code. */
-    /* Code decompiled incorrectly, please refer to instructions dump. */
-    private void processPurchaseResult(int r7, int r8, java.lang.String r9, java.lang.String r10) {
-        /*
-        r6 = this;
-        r2 = 0;
-        r3 = 1000; // 0x3e8 float:1.401E-42 double:4.94E-321;
-        r0 = r6.itemBeingPurchased;
-        r6.itemBeingPurchased = r2;
-        r1 = r6.billingService;
-        if (r1 != 0) goto L_0x000c;
-    L_0x000b:
-        return;
-    L_0x000c:
-        if (r8 == r3) goto L_0x0014;
-    L_0x000e:
-        r1 = r6.handlePurchaseErrorResult(r8);
-        if (r1 != 0) goto L_0x000b;
-    L_0x0014:
-        if (r7 != 0) goto L_0x001c;
-    L_0x0016:
-        r0 = com.nianticlabs.nia.iap.PurchaseResult.USER_CANCELLED;
-        r6.finalizePurchaseResult(r0);
-        goto L_0x000b;
-    L_0x001c:
-        r1 = -1;
-        if (r7 == r1) goto L_0x0025;
-    L_0x001f:
-        r0 = com.nianticlabs.nia.iap.PurchaseResult.FAILURE;
-        r6.finalizePurchaseResult(r0);
-        goto L_0x000b;
-    L_0x0025:
-        if (r8 == r3) goto L_0x002b;
-    L_0x0027:
-        if (r9 == 0) goto L_0x002b;
-    L_0x0029:
-        if (r10 != 0) goto L_0x0031;
-    L_0x002b:
-        r0 = com.nianticlabs.nia.iap.PurchaseResult.FAILURE;
-        r6.finalizePurchaseResult(r0);
-        goto L_0x000b;
-    L_0x0031:
-        r1 = "UNKNOWN";
-        r3 = 0;
-        if (r0 == 0) goto L_0x0063;
-    L_0x0036:
-        r4 = r6.currentPurchasableItems;
-        r0 = r4.get(r0);
-        r0 = (com.nianticlabs.nia.iap.GetSkuDetailsResponseItem) r0;
-        if (r0 == 0) goto L_0x0063;
-    L_0x0040:
-        r2 = r0.getProductId();
-        r1 = r0.getCurrencyCode();
-        r0 = r0.getPriceE6();
-        r5 = r2;
-        r2 = r0;
-        r0 = r5;
-    L_0x004f:
-        if (r0 != 0) goto L_0x005d;
-    L_0x0051:
-        r3 = com.nianticlabs.nia.iap.GoogleInAppPurchaseData.fromJson(r9);
-        if (r3 == 0) goto L_0x005b;
-    L_0x0057:
-        r0 = r3.getProductId();
-    L_0x005b:
-        if (r0 != 0) goto L_0x005d;
-    L_0x005d:
-        r0 = r6.delegate;
-        r0.ProcessReceipt(r9, r10, r1, r2);
-        goto L_0x000b;
-    L_0x0063:
-        r0 = r2;
-        r2 = r3;
-        goto L_0x004f;
-        */
-        throw new UnsupportedOperationException("Method not decompiled: com.nianticlabs.nia.iap.GoogleInAppBillingProvider.processPurchaseResult(int, int, java.lang.String, java.lang.String):void");
+    private void processPurchaseResult(int activityResultCode, int responseCode, String purchaseData, String dataSignature) {
+        String purchasedItem = this.itemBeingPurchased;
+        this.itemBeingPurchased = null;
+        if (this.billingService != null) {
+            if (responseCode != BILLING_RESPONSE_RESULT_NOT_FOUND && handlePurchaseErrorResult(responseCode)) {
+                return;
+            }
+            if (activityResultCode == 0) {
+                finalizePurchaseResult(PurchaseResult.USER_CANCELLED);
+            } else if (activityResultCode != -1) {
+                finalizePurchaseResult(PurchaseResult.FAILURE);
+            } else if (responseCode == BILLING_RESPONSE_RESULT_NOT_FOUND || purchaseData == null || dataSignature == null) {
+                finalizePurchaseResult(PurchaseResult.FAILURE);
+            } else {
+                String currency = UNKNOWN_CURRENCY_STRING;
+                String productId = null;
+                int pricePaidE6 = BILLING_RESPONSE_RESULT_OK;
+                if (purchasedItem != null) {
+                    GetSkuDetailsResponseItem itemDetails = (GetSkuDetailsResponseItem) this.currentPurchasableItems.get(purchasedItem);
+                    if (itemDetails != null) {
+                        productId = itemDetails.getProductId();
+                        currency = itemDetails.getCurrencyCode();
+                        pricePaidE6 = itemDetails.getPriceE6();
+                    }
+                }
+                if (productId == null) {
+                    GoogleInAppPurchaseData parsedPurchaseData = GoogleInAppPurchaseData.fromJson(purchaseData);
+                    if (parsedPurchaseData != null) {
+                        productId = parsedPurchaseData.getProductId();
+                    }
+                    if (productId == null) {
+                        productId = EnvironmentCompat.MEDIA_UNKNOWN;
+                    }
+                }
+                this.delegate.ProcessReceipt(purchaseData, dataSignature, currency, pricePaidE6);
+            }
+        }
     }
 
     public void forwardedOnActivityResult(int i, Intent intent) {
