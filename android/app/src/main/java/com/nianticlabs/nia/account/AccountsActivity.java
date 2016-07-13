@@ -107,11 +107,8 @@ public class AccountsActivity extends Activity {
         } catch (UserRecoverableAuthException e) {
             accountsActivity.askUserToRecover(e);
         } catch (Throwable e2) {
+            Log.e(TAG, "User cannot be authenticated.", e2);
             Log.e(TAG, "Unable to get authToken at this time.", e2);
-            accountsActivity.accountManager.setAuthToken(Status.NON_RECOVERABLE_ERROR, BuildConfig.FLAVOR);
-            accountsActivity.postFinish();
-        } catch (Throwable e22) {
-            Log.e(TAG, "User cannot be authenticated.", e22);
             accountsActivity.accountManager.setAuthToken(Status.NON_RECOVERABLE_ERROR, BuildConfig.FLAVOR);
             accountsActivity.postFinish();
         }

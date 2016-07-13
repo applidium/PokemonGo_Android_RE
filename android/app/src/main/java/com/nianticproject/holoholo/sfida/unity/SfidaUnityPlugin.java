@@ -88,7 +88,7 @@ public class SfidaUnityPlugin implements UnityInterface {
         }
 
         public void run() {
-            Toast.makeText(SfidaUnityPlugin.this.getActivity(), "Finding Pok\u00e9mon GO Plus.", 0).show();
+            Toast.makeText(SfidaUnityPlugin.this.getActivity(), "Finding Pok\u00e9mon GO Plus.", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -188,7 +188,7 @@ public class SfidaUnityPlugin implements UnityInterface {
         }
 
         public void onDeviceDiscovered(BluetoothDevice bluetoothDevice, boolean z) {
-            Toast.makeText(SfidaUnityPlugin.this.getActivity(), "Pok\u00e9mon GO Plus discovered.", 0).show();
+            Toast.makeText(SfidaUnityPlugin.this.getActivity(), "Pok\u00e9mon GO Plus discovered.", Toast.LENGTH_SHORT).show();
             SfidaUnityPlugin.this.stopScanSfida();
             SfidaUnityPlugin.this.startSfidaConnection(bluetoothDevice);
         }
@@ -208,7 +208,7 @@ public class SfidaUnityPlugin implements UnityInterface {
     }
 
     private void addSfidaFinderFragment() {
-        Fragment createInstance = SfidaFinderFragment.createInstance();
+        SfidaFinderFragment createInstance = SfidaFinderFragment.createInstance();
         createInstance.setOnDeviceDiscoveredListener(new SfidaDiscoveredListener());
         getActivity().getFragmentManager().beginTransaction().add(createInstance, SfidaFinderFragment.class.getName()).commit();
     }
@@ -270,56 +270,19 @@ public class SfidaUnityPlugin implements UnityInterface {
     private void onBroadcastUpdated(Intent intent) {
         String action = intent.getAction();
         Log.d(TAG, "onBroadcastUpdated() " + action);
-        boolean z = true;
-        switch (action.hashCode()) {
-            case -1535635066:
-                if (action.equals(SfidaConstants.ACTION_GATT_CONNECTED)) {
-                    z = false;
-                    break;
-                }
-                break;
-            case -1413011842:
-                if (action.equals(SfidaConstants.ACTION_GATT_DISCONNECTED)) {
-                    z = true;
-                    break;
-                }
-                break;
-            case -410892653:
-                if (action.equals(SfidaConstants.ACTION_BOND_CANCELED)) {
-                    z = true;
-                    break;
-                }
-                break;
-            case -391313386:
-                if (action.equals(SfidaConstants.ACTION_DATA_AVAILABLE)) {
-                    z = true;
-                    break;
-                }
-                break;
-            case -302160988:
-                if (action.equals(SfidaConstants.ACTION_CREATE_BOND)) {
-                    z = true;
-                    break;
-                }
-                break;
-            case 789901635:
-                if (action.equals(SfidaConstants.ACTION_CERTIFICATE_COMPLETE)) {
-                    z = true;
-                    break;
-                }
-                break;
-        }
-        switch (z) {
-            case R.styleable.AdsAttrs_adSize /*0*/:
+        switch (action) {
+            case SfidaConstants.ACTION_GATT_CONNECTED:
                 this.isSfidaConnected = true;
-            case R.styleable.LoadingImageView_imageAspectRatio /*1*/:
+                break;
+            case SfidaConstants.ACTION_GATT_DISCONNECTED:
                 this.isSfidaConnected = false;
-                Toast.makeText(getActivity(), "PokemonGoPlus disconnected", 1).show();
+                Toast.makeText(getActivity(), "PokemonGoPlus disconnected", Toast.LENGTH_LONG).show();
                 UnityPlayer.UnitySendMessage(UNITY_GAME_OBJECT, UNITY_METHOD_NOTIFY_DISCONNECTED, BuildConfig.FLAVOR);
-            case R.styleable.LoadingImageView_circleCrop /*2*/:
-                Toast.makeText(getActivity(), "Pok\u00e9mon GO Plus connected.", 0).show();
-                UnityPlayer.UnitySendMessage(UNITY_GAME_OBJECT, UNITY_METHOD_NOTIFY_CONNECTED, BuildConfig.FLAVOR);
-            case SfidaMessage.ACTIVITY_BYTE_LENGTH /*3*/:
+                break;
+            case SfidaConstants.ACTION_BOND_CANCELED:
+                Toast.makeText(getActivity(), "Canceled pairing. Retry or refresh Pok\u00e9mon GO Plus connection.", Toast.LENGTH_LONG).show();
+                break;
+            case SfidaConstants.ACTION_DATA_AVAILABLE:
                 Bundle extras = intent.getExtras();
                 if (extras == null) {
                     Log.wtf(TAG, "ops!");
@@ -333,11 +296,14 @@ public class SfidaUnityPlugin implements UnityInterface {
                 } else {
                     Log.d(TAG, "[BLE] raw data " + SfidaUtils.byteArrayToString(extras.getByteArray(SfidaService.EXTRA_DATA_RAW)));
                 }
-            case Place.TYPE_AQUARIUM /*4*/:
-                Toast.makeText(getActivity(), "Pairing...\nClick Plus again.", 1).show();
-            case Place.TYPE_ART_GALLERY /*5*/:
-                Toast.makeText(getActivity(), "Canceled pairing. Retry or refresh Pok\u00e9mon GO Plus connection.", 1).show();
-            default:
+                break;
+            case SfidaConstants.ACTION_CREATE_BOND:
+                Toast.makeText(getActivity(), "Pairing...\nClick Plus again.", Toast.LENGTH_LONG).show();
+                break;
+            case SfidaConstants.ACTION_CERTIFICATE_COMPLETE:
+                Toast.makeText(getActivity(), "Pok\u00e9mon GO Plus connected.", Toast.LENGTH_SHORT).show();
+                UnityPlayer.UnitySendMessage(UNITY_GAME_OBJECT, UNITY_METHOD_NOTIFY_CONNECTED, BuildConfig.FLAVOR);
+                break;
         }
     }
 
@@ -363,7 +329,7 @@ public class SfidaUnityPlugin implements UnityInterface {
             this.sfidaService.connect(bluetoothDevice);
             return;
         }
-        getActivity().bindService(new Intent(getActivity(), SfidaService.class), this.serviceConnection, 1);
+        getActivity().bindService(new Intent(getActivity(), SfidaService.class), this.serviceConnection, Context.BIND_AUTO_CREATE);
     }
 
     private void stopScanSfida() {

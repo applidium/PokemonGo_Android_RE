@@ -126,19 +126,18 @@ public class LocationManagerProvider implements GpsProvider {
     public void onResume() {
         ServiceStatus serviceStatus;
         this.firstLocationUpdate = true;
-        ServiceStatus serviceStatus2 = ServiceStatus.FAILED;
         try {
             this.locationManager.requestLocationUpdates(this.provider, (long) this.updateTime, this.updateDistance, this.listener, ContextService.getServiceLooper());
             Log.d(TAG, "Location manager initialized");
-            if (this.provider == "gps") {
+            if ("gps".equals(provider)) {
                 this.locationManager.addGpsStatusListener(this.gpsStatusListener);
             }
             this.running = true;
-            serviceStatus = serviceStatus2;
-        } catch (Throwable e) {
+            serviceStatus = ServiceStatus.FAILED;
+        } catch (IllegalArgumentException e) {
             Log.e(TAG, "Could not request " + this.provider + " updates", e);
-            serviceStatus = serviceStatus2;
-        } catch (Throwable e2) {
+            serviceStatus = ServiceStatus.FAILED;
+        } catch (SecurityException e2) {
             Log.e(TAG, "Not allowed to access " + this.provider + " for updates", e2);
             serviceStatus = ServiceStatus.PERMISSION_DENIED;
         }
@@ -155,7 +154,7 @@ public class LocationManagerProvider implements GpsProvider {
     }
 
     public void onStart() {
-        this.locationManager = (LocationManager) this.context.getSystemService("location");
+        this.locationManager = (LocationManager) this.context.getSystemService(Context.LOCATION_SERVICE);
     }
 
     public void onStop() {

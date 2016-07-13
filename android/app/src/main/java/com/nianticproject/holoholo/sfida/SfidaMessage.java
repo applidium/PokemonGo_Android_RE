@@ -178,9 +178,9 @@ public class SfidaMessage {
         } else if (i == 2) {
             return new byte[]{(byte) 2, (byte) -16, (byte) -16, (byte) 1, (byte) -16, Byte.MIN_VALUE, (byte) 2, (byte) 15, (byte) -16, (byte) 1, (byte) 15, Byte.MIN_VALUE, (byte) 3, (byte) 0, (byte) -113};
         } else if (i >= ACTIVITY_BYTE_LENGTH) {
-            Object obj = new byte[(i * 6)];
+            byte[] obj = new byte[(i * 6)];
             for (int i2 = 0; i2 < i; i2++) {
-                Object obj2 = i2 % ACTIVITY_BYTE_LENGTH == 0 ? new byte[]{2, null, (byte) -8, 2, null, (byte) -113} : i2 % ACTIVITY_BYTE_LENGTH == 1 ? new byte[]{2, Byte.MIN_VALUE, -16, 2, -16, Byte.MIN_VALUE} : new byte[]{2, (byte) 8, -16, 2, (byte) 15, Byte.MIN_VALUE};
+                Object obj2 = i2 % ACTIVITY_BYTE_LENGTH == 0 ? new byte[]{2, 0, (byte) -8, 2, 0, (byte) -113} : i2 % ACTIVITY_BYTE_LENGTH == 1 ? new byte[]{2, Byte.MIN_VALUE, -16, 2, -16, Byte.MIN_VALUE} : new byte[]{2, (byte) 8, -16, 2, (byte) 15, Byte.MIN_VALUE};
                 System.arraycopy(obj2, 0, obj, i2 * 6, 6);
             }
             return obj;
@@ -190,13 +190,13 @@ public class SfidaMessage {
     }
 
     public static byte[] getRewardItems(int i) {
-        Object obj = new byte[ACTIVITY_BYTE_LENGTH];
-        obj[0] = null;
-        obj[1] = null;
-        obj[2] = null;
-        Object rewardItemActivity = getRewardItemActivity(i);
-        Object obj2 = new byte[]{(byte) (rewardItemActivity.length / ACTIVITY_BYTE_LENGTH)};
-        Object obj3 = new byte[((obj.length + 1) + rewardItemActivity.length)];
+        byte[] obj = new byte[ACTIVITY_BYTE_LENGTH];
+        obj[0] = 0;
+        obj[1] = 0;
+        obj[2] = 0;
+        byte[] rewardItemActivity = getRewardItemActivity(i);
+        byte[] obj2 = new byte[]{(byte) (rewardItemActivity.length / ACTIVITY_BYTE_LENGTH)};
+        byte[] obj3 = new byte[((obj.length + 1) + rewardItemActivity.length)];
         System.arraycopy(obj, 0, obj3, 0, obj.length);
         System.arraycopy(obj2, 0, obj3, obj.length, obj2.length);
         System.arraycopy(rewardItemActivity, 0, obj3, obj.length + obj2.length, rewardItemActivity.length);

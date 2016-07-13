@@ -115,7 +115,7 @@ public class Strings {
         hashMap.put(DIALOG_MESSAGE_NO_CARDBOARD, "Dapatkan aplikasi Cardboard untuk mengonfigurasikan penampil Anda.");
         hashMap.put(DIALOG_MESSAGE_SETUP, "Siapkan penampil Anda untuk pengalaman terbaik.");
         hashMap.put(GO_TO_PLAYSTORE_BUTTON, "Buka Play Store");
-        LANGUAGE_MAP.put(TriggerIfContentAvailable.ID, hashMap);
+        LANGUAGE_MAP.put("id", hashMap);
         hashMap = new HashMap();
         hashMap.put(NO_BROWSER_TEXT, "No tienes navegadores para abrir este sitio web");
         hashMap.put(DIALOG_TITLE, "Configurar");

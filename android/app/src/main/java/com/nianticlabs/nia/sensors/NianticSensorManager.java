@@ -63,8 +63,8 @@ public class NianticSensorManager extends ContextService implements SensorEventL
         this.accelerometerData = new float[3];
         this.magneticData = new float[3];
         this.rotationData = new float[5];
-        this.display = ((WindowManager) context.getSystemService("window")).getDefaultDisplay();
-        this.sensorManager = (SensorManager) context.getSystemService("sensor");
+        this.display = ((WindowManager) context.getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
+        this.sensorManager = (SensorManager) context.getSystemService(Context.SENSOR_SERVICE);
         this.gravity = this.sensorManager.getDefaultSensor(9);
         this.gyroscope = this.sensorManager.getDefaultSensor(4);
         this.accelerometer = this.sensorManager.getDefaultSensor(1);
@@ -107,7 +107,7 @@ public class NianticSensorManager extends ContextService implements SensorEventL
     }
 
     private float getDeclination() {
-        if (this.declinationUpdateTimeMs + MarketingContentStoreImpl.DEFAULT_TIME_TO_LIVE_MS > System.currentTimeMillis()) {
+        if (this.declinationUpdateTimeMs + DECLINATION_UPDATE_INTERVAL_MSEC > System.currentTimeMillis()) {
         }
         return this.declination;
     }
@@ -186,7 +186,7 @@ public class NianticSensorManager extends ContextService implements SensorEventL
             return ENABLE_VERBOSE_LOGS;
         }
         SensorManager.getOrientation(this.tmpMatrix2, fArr2);
-        toDegrees = (float) Math.toDegrees((double) fArr2[1]);
+        float toDegrees = (float) Math.toDegrees((double) fArr2[1]);
         float filter = this.orientationFilter.filter(j, MathUtil.wrapAngle(fArr2[0] + (MathUtil.DEGREES_TO_RADIANS * getDeclination())) * MathUtil.RADIANS_TO_DEGREES);
         if (Math.abs(filter - this.lastAzimuthUpdate) >= ANGLE_CHANGE_THRESHOLD_DEGREES || Math.abs(toDegrees - this.lastPitchUpdate) >= ANGLE_CHANGE_THRESHOLD_DEGREES) {
             this.lastAzimuthUpdate = filter;

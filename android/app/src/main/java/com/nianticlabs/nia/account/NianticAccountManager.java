@@ -84,13 +84,8 @@ public class NianticAccountManager extends ContextService {
                 setAuthToken(Status.OK, GoogleAuthUtil.getToken(this.context, accountName, "audience:server:client_id:" + str));
                 obj = null;
             }
-        } catch (UserRecoverableAuthException e) {
-        } catch (Throwable e2) {
-            Log.e(TAG, "Unable to get authToken at this time.", e2);
-            setAuthToken(Status.NON_RECOVERABLE_ERROR, BuildConfig.FLAVOR);
-            obj = null;
-        } catch (Throwable e22) {
-            Log.e(TAG, "User cannot be authenticated.", e22);
+        } catch (Exception e) {
+            Log.e(TAG, "User cannot be authenticated.", e);
             setAuthToken(Status.NON_RECOVERABLE_ERROR, BuildConfig.FLAVOR);
             obj = null;
         }

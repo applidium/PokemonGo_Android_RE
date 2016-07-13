@@ -390,7 +390,7 @@ public class GoogleInAppBillingProvider implements InAppBillingProvider {
             if (this.context.getPackageManager().queryIntentServices(intent, BILLING_RESPONSE_RESULT_OK).isEmpty()) {
                 finalizeConnectionResult();
             }
-            this.context.bindService(intent, this.serviceConnection, BILLING_RESPONSE_RESULT_USER_CANCELED);
+            this.context.bindService(intent, this.serviceConnection, Context.BIND_AUTO_CREATE);
         }
     }
 
@@ -573,7 +573,7 @@ public class GoogleInAppBillingProvider implements InAppBillingProvider {
         if (isBillingAvailable()) {
             new GetSkuDetailsTask(arrayList).execute(new Void[BILLING_RESPONSE_RESULT_OK]);
         } else {
-            notifyPurchasableItemsResult(Collections.emptyList());
+            notifyPurchasableItemsResult(Collections.<PurchasableItemDetails>emptyList());
         }
     }
 

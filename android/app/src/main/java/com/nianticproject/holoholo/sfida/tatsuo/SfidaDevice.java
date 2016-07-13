@@ -38,7 +38,7 @@ public class SfidaDevice {
             if (SfidaDevice.this.buttonPresses == null) {
                 SfidaDevice.this.buttonPresses = new int[]{i};
             } else {
-                Object obj = new int[(SfidaDevice.this.buttonPresses.length + 1)];
+                int[] obj = new int[(SfidaDevice.this.buttonPresses.length + 1)];
                 System.arraycopy(SfidaDevice.this.buttonPresses, 0, obj, 0, SfidaDevice.this.buttonPresses.length);
                 obj[SfidaDevice.this.buttonPresses.length] = i;
                 SfidaDevice.this.buttonPresses = obj;

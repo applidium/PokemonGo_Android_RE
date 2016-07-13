@@ -7,6 +7,7 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothAdapter.LeScanCallback;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothManager;
+import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 import android.widget.Toast;
@@ -97,7 +98,7 @@ public class SfidaFinderFragment extends Fragment {
         if (activity.getPackageManager().hasSystemFeature("android.hardware.bluetooth_le")) {
             return true;
         }
-        Toast.makeText(activity, "BluetoothLE not supported.", 0).show();
+        Toast.makeText(activity, "BluetoothLE not supported.", Toast.LENGTH_SHORT).show();
         return false;
     }
 
@@ -106,7 +107,7 @@ public class SfidaFinderFragment extends Fragment {
     }
 
     private boolean detectButtonPressed(byte[] bArr) {
-        return bArr.length > 27 && bArr[26] != null;
+        return bArr.length > 27 && bArr[26] != 0;
     }
 
     private boolean enableBt() {
@@ -118,7 +119,7 @@ public class SfidaFinderFragment extends Fragment {
     }
 
     private void init(Activity activity) {
-        this.bluetoothAdapter = ((BluetoothManager) activity.getSystemService("bluetooth")).getAdapter();
+        this.bluetoothAdapter = ((BluetoothManager) activity.getSystemService(Context.BLUETOOTH_SERVICE)).getAdapter();
     }
 
     private boolean isFilteredDevice(String str) {

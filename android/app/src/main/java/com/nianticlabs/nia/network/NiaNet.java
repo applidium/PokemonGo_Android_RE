@@ -329,12 +329,12 @@ public class NiaNet {
         }
         ByteBuffer byteBuffer = (ByteBuffer) readBuffer.get();
         try {
-            Object array = byteBuffer.array();
+            byte[] array = byteBuffer.array();
             int arrayOffset = byteBuffer.arrayOffset();
-            void v = METHOD_HEAD;
+            int v = METHOD_HEAD;
             int i = arrayOffset;
             int i2 = arrayOffset;
-            Object obj = array;
+            byte[] obj = array;
             int i3 = i2;
             while (true) {
                 int available = inputStream.available();
@@ -358,9 +358,6 @@ public class NiaNet {
                     continue;
                 } else {
                     v = METHOD_GET;
-                    continue;
-                }
-                if (v == null) {
                     break;
                 }
             }
